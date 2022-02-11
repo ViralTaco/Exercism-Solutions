@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/taco/.dotnet/store/|arch|/|tfm|",
+      "/Users/taco/.nuget/packages"
+    ]
+  }
+}

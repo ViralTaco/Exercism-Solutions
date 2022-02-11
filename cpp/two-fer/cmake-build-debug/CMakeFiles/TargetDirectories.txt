@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/cmake-build-debug/CMakeFiles/test_two-fer.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/cmake-build-debug/CMakeFiles/two-fer.dir

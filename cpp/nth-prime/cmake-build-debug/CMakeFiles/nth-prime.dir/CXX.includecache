@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/viraltaco/Desktop/projects/Exercism/cpp/nth-prime/nth_prime.cpp
+nth_prime.h
+/Users/viraltaco/Desktop/projects/Exercism/cpp/nth-prime/nth_prime.h
+stdexcept
+-
+cmath
+-
+
+/Users/viraltaco/Desktop/projects/Exercism/cpp/nth-prime/nth_prime.h
+cstddef
+-
+cstdint
+-
+array
+-
+string
+-
+stdexcept
+-
+

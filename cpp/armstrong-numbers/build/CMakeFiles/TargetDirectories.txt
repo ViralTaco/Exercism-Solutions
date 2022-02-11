@@ -1,0 +1,4 @@
+/Users/viraltaco/Exercism/cpp/armstrong-numbers/build/CMakeFiles/test_armstrong-numbers.dir
+/Users/viraltaco/Exercism/cpp/armstrong-numbers/build/CMakeFiles/armstrong-numbers.dir
+/Users/viraltaco/Exercism/cpp/armstrong-numbers/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/Exercism/cpp/armstrong-numbers/build/CMakeFiles/ZERO_CHECK.dir

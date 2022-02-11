@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/Projects/Exercism/users/beyerja-3075/cpp/nth-prime/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/users/beyerja-3075/cpp/nth-prime/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/users/beyerja-3075/cpp/nth-prime/cmake-build-debug/CMakeFiles/test_nth-prime.dir
+/Users/viraltaco/Desktop/Projects/Exercism/users/beyerja-3075/cpp/nth-prime/cmake-build-debug/CMakeFiles/nth-prime.dir

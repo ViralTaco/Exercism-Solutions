@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/viraltaco/Desktop/projects/Exercism/cpp/pangram/pangram.cpp
+pangram.h
+/Users/viraltaco/Desktop/projects/Exercism/cpp/pangram/pangram.h
+bitset
+-
+
+/Users/viraltaco/Desktop/projects/Exercism/cpp/pangram/pangram.h
+string_view
+-
+

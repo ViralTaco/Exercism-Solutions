@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gigasecond",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gigasecond::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gigasecond-Debug-b7a53f31198ebef07088.json",
+					"name" : "gigasecond",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_gigasecond::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_gigasecond-Debug-387237ed11d15fcc4f0b.json",
+					"name" : "test_gigasecond",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/viraltaco/Desktop/Projects/Exercism/cpp/gigasecond/cmake-build-debug",
+		"source" : "/Users/viraltaco/Desktop/Projects/Exercism/cpp/gigasecond"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		518806043F4C4CC2A50AF7AF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C964C49326974048822F25F3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				347871358CF72C32BE5C706E /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				2611E89E3A4A45689D6E15A5 /* PBXTargetDependency */,
+				C8DAE803BA124C57BA2233A3 /* PBXTargetDependency */,
+				3D1DA02B929B413887523126 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		959A94F6877B4EEE9F7D7545 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 80E46B53263649EBBEAD3531 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				EEA2C19AD9E9B97AE04EB934 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		C2A4DC9809EE41FAAB506203 /* test_isogram */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 610E46161CF440EA88BE7DB3 /* Build configuration list for PBXAggregateTarget "test_isogram" */;
+			buildPhases = (
+				3EFD1D075490CA96DF7E1A44 /* Generate CMakeFiles/test_isogram */,
+			);
+			dependencies = (
+				3DBB3680086A4C4B8F91282C /* PBXTargetDependency */,
+				75E26E9A3E31460180D365F8 /* PBXTargetDependency */,
+			);
+			name = test_isogram;
+			productName = test_isogram;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2FA7B9F87D4F40CFBB2C3C53 /* /Users/viraltaco/Exercism/cpp/isogram/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = 649B517584F74443AE4D0656 /* /Users/viraltaco/Exercism/cpp/isogram/test/tests-main.cpp */; };
+		3B4E05C202CC478E9C2A5D97 /* /Users/viraltaco/Exercism/cpp/isogram/isogram.h */ = {isa = PBXBuildFile; fileRef = 583095C4F0E246A4AC9C688C /* /Users/viraltaco/Exercism/cpp/isogram/isogram.h */; };
+		488213B9E0D1490281B2C68E /* /Users/viraltaco/Exercism/cpp/isogram/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1C007572888849B9BCE75537 /* /Users/viraltaco/Exercism/cpp/isogram/CMakeLists.txt */; };
+		AB1DE882997E473BBC07906F /* /Users/viraltaco/Exercism/cpp/isogram/isogram.cpp */ = {isa = PBXBuildFile; fileRef = 8F780654344444F9AD110EC8 /* /Users/viraltaco/Exercism/cpp/isogram/isogram.cpp */; };
+		CF691CCB75EF4B3E8441BE05 /* /Users/viraltaco/Exercism/cpp/isogram/isogram_test.cpp */ = {isa = PBXBuildFile; fileRef = 7C122AB48E144717A78902B7 /* /Users/viraltaco/Exercism/cpp/isogram/isogram_test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		89008E10DC5B409F939CF1EE /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9C0DEA96400A48CB9F8F65F8 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		A797A7811C83482C838E9AE7 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		EF46214B23794233AFAEB6D8 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		11AD87398DEA4B4AA7CB7793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7085E1E83B9F44A397153E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A4DC9809EE41FAAB506203;
+			remoteInfo = test_isogram;
+		};
+		2B0AE0DA801C462AA93B4BE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7085E1E83B9F44A397153E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 959A94F6877B4EEE9F7D7545;
+			remoteInfo = ZERO_CHECK;
+		};
+		5F845074534D4D44B5574AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7085E1E83B9F44A397153E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 959A94F6877B4EEE9F7D7545;
+			remoteInfo = ZERO_CHECK;
+		};
+		D5044851EAEF49E5A64F666E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7085E1E83B9F44A397153E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 959A94F6877B4EEE9F7D7545;
+			remoteInfo = ZERO_CHECK;
+		};
+		F338A4111B144EC888409A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7085E1E83B9F44A397153E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8595B5AB714CDDA2D36C93;
+			remoteInfo = isogram;
+		};
+		F874DF139B014FDF802F390A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7085E1E83B9F44A397153E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8595B5AB714CDDA2D36C93;
+			remoteInfo = isogram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0806879CC0B24343B53C28A5 /* /Users/viraltaco/Exercism/cpp/isogram/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1C007572888849B9BCE75537 /* /Users/viraltaco/Exercism/cpp/isogram/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		583095C4F0E246A4AC9C688C /* /Users/viraltaco/Exercism/cpp/isogram/isogram.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = isogram.h; path = isogram.h; sourceTree = SOURCE_ROOT; };
+		649B517584F74443AE4D0656 /* /Users/viraltaco/Exercism/cpp/isogram/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+		7C122AB48E144717A78902B7 /* /Users/viraltaco/Exercism/cpp/isogram/isogram_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = isogram_test.cpp; path = isogram_test.cpp; sourceTree = SOURCE_ROOT; };
+		88BE01298ED5426788002333 /* /Users/viraltaco/Exercism/cpp/isogram/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8AAAFC50472D4A558F7CB0CD /* isogram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = isogram; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F780654344444F9AD110EC8 /* /Users/viraltaco/Exercism/cpp/isogram/isogram.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = isogram.cpp; path = isogram.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		245682D49E83470CA64B0B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2707E6056DD9476E90064874 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				583095C4F0E246A4AC9C688C /* /Users/viraltaco/Exercism/cpp/isogram/isogram.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		34CB6106A1DA4864BBC41F0A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		37A4698A925B4EAE961372E3 /* test_isogram */ = {
+			isa = PBXGroup;
+			children = (
+				92205B70FB8148968E933786 /* CMake Rules */,
+				88BE01298ED5426788002333 /* /Users/viraltaco/Exercism/cpp/isogram/CMakeLists.txt */,
+			);
+			name = test_isogram;
+			sourceTree = "<group>";
+		};
+		53508C670C9C4A2E9C97B6AC /* isogram */ = {
+			isa = PBXGroup;
+			children = (
+				8E0A6D642E0E4B739F3EFD17 /* Source Files */,
+				2707E6056DD9476E90064874 /* Header Files */,
+				1C007572888849B9BCE75537 /* /Users/viraltaco/Exercism/cpp/isogram/CMakeLists.txt */,
+			);
+			name = isogram;
+			sourceTree = "<group>";
+		};
+		8E0A6D642E0E4B739F3EFD17 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F780654344444F9AD110EC8 /* /Users/viraltaco/Exercism/cpp/isogram/isogram.cpp */,
+				7C122AB48E144717A78902B7 /* /Users/viraltaco/Exercism/cpp/isogram/isogram_test.cpp */,
+				649B517584F74443AE4D0656 /* /Users/viraltaco/Exercism/cpp/isogram/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		92205B70FB8148968E933786 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		93FB0BD208DE43BEB77FBFF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AAAFC50472D4A558F7CB0CD /* isogram */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6D8346E15494C1EB837B338 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6048CF30EB143A981055457 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				34CB6106A1DA4864BBC41F0A /* CMake Rules */,
+				0806879CC0B24343B53C28A5 /* /Users/viraltaco/Exercism/cpp/isogram/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F6F5BF4E3EB243FC853CAD6E = {
+			isa = PBXGroup;
+			children = (
+				37A4698A925B4EAE961372E3 /* test_isogram */,
+				53508C670C9C4A2E9C97B6AC /* isogram */,
+				F6048CF30EB143A981055457 /* ALL_BUILD */,
+				93FB0BD208DE43BEB77FBFF6 /* Products */,
+				C6D8346E15494C1EB837B338 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B8595B5AB714CDDA2D36C93 /* isogram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279E932305C147A7A5561D9E /* Build configuration list for PBXNativeTarget "isogram" */;
+			buildPhases = (
+				FC9E2AA031664B9EB427F0AE /* Sources */,
+				245682D49E83470CA64B0B18 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E719E344522A4C9D99481155 /* PBXTargetDependency */,
+			);
+			name = isogram;
+			productName = isogram;
+			productReference = 8AAAFC50472D4A558F7CB0CD /* isogram */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7085E1E83B9F44A397153E28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 3FC7320F52E349BE90BCF616 /* Build configuration list for PBXProject "isogram" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A797A7811C83482C838E9AE7 /* Debug */,
+				89008E10DC5B409F939CF1EE /* Release */,
+				9C0DEA96400A48CB9F8F65F8 /* MinSizeRel */,
+				EF46214B23794233AFAEB6D8 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F6F5BF4E3EB243FC853CAD6E;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				518806043F4C4CC2A50AF7AF /* ALL_BUILD */,
+				959A94F6877B4EEE9F7D7545 /* ZERO_CHECK */,
+				4B8595B5AB714CDDA2D36C93 /* isogram */,
+				C2A4DC9809EE41FAAB506203 /* test_isogram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		347871358CF72C32BE5C706E /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/viraltaco/Exercism/cpp/isogram/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Exercism/cpp/isogram/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Exercism/cpp/isogram/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Exercism/cpp/isogram/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Exercism/cpp/isogram/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3EFD1D075490CA96DF7E1A44 /* Generate CMakeFiles/test_isogram */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+/Users/viraltaco/Exercism/cpp/isogram/build/Debug/isogram,/Users/viraltaco/Exercism/cpp/isogram/build/MinSizeRel/isogram,/Users/viraltaco/Exercism/cpp/isogram/build/RelWithDebInfo/isogram,/Users/viraltaco/Exercism/cpp/isogram/build/Release/isogram			);
+			name = "Generate CMakeFiles/test_isogram";
+			outputPaths = (
+/Users/viraltaco/Exercism/cpp/isogram/build/CMakeFiles/test_isogram			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Exercism/cpp/isogram/build
+  /Users/viraltaco/Exercism/cpp/isogram/build/Debug/isogram
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Exercism/cpp/isogram/build
+  /Users/viraltaco/Exercism/cpp/isogram/build/Release/isogram
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Exercism/cpp/isogram/build
+  /Users/viraltaco/Exercism/cpp/isogram/build/MinSizeRel/isogram
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Exercism/cpp/isogram/build
+  /Users/viraltaco/Exercism/cpp/isogram/build/RelWithDebInfo/isogram
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		6A87BE178658A2875FEDB21C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EEA2C19AD9E9B97AE04EB934 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/viraltaco/Exercism/cpp/isogram/build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Exercism/cpp/isogram/build
+  make -f /Users/viraltaco/Exercism/cpp/isogram/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Exercism/cpp/isogram/build
+  make -f /Users/viraltaco/Exercism/cpp/isogram/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Exercism/cpp/isogram/build
+  make -f /Users/viraltaco/Exercism/cpp/isogram/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Exercism/cpp/isogram/build
+  make -f /Users/viraltaco/Exercism/cpp/isogram/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC9E2AA031664B9EB427F0AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1DE882997E473BBC07906F /* /Users/viraltaco/Exercism/cpp/isogram/isogram.cpp */,
+				CF691CCB75EF4B3E8441BE05 /* /Users/viraltaco/Exercism/cpp/isogram/isogram_test.cpp */,
+				2FA7B9F87D4F40CFBB2C3C53 /* /Users/viraltaco/Exercism/cpp/isogram/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2611E89E3A4A45689D6E15A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A4DC9809EE41FAAB506203 /* test_isogram */;
+			targetProxy = 11AD87398DEA4B4AA7CB7793 /* PBXContainerItemProxy */;
+		};
+		3D1DA02B929B413887523126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8595B5AB714CDDA2D36C93 /* isogram */;
+			targetProxy = F338A4111B144EC888409A52 /* PBXContainerItemProxy */;
+		};
+		3DBB3680086A4C4B8F91282C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 959A94F6877B4EEE9F7D7545 /* ZERO_CHECK */;
+			targetProxy = 5F845074534D4D44B5574AE2 /* PBXContainerItemProxy */;
+		};
+		75E26E9A3E31460180D365F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8595B5AB714CDDA2D36C93 /* isogram */;
+			targetProxy = F874DF139B014FDF802F390A /* PBXContainerItemProxy */;
+		};
+		C8DAE803BA124C57BA2233A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 959A94F6877B4EEE9F7D7545 /* ZERO_CHECK */;
+			targetProxy = 2B0AE0DA801C462AA93B4BE9 /* PBXContainerItemProxy */;
+		};
+		E719E344522A4C9D99481155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 959A94F6877B4EEE9F7D7545 /* ZERO_CHECK */;
+			targetProxy = D5044851EAEF49E5A64F666E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D9129926FF0414FB7A3D764 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_isogram;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1F4C4D24BC034B89A9B4615F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2B6F14E85F9246888C0DF1FA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_isogram;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2FE378878FC8411D9BD26D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_isogram;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		44E5495075114ECBA948C9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = isogram;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4E97A8125A5B40E8B3D4ADBF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4FD63A5EC832459CA94A82F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		54DBDA609D264EF0B6DEA316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5B7FB5477C9E46FFAF958A19 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = isogram;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		705DF8C125B947B99DC00B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_isogram;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8F5F82E377424E63B4BECFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build/build;
+			};
+			name = Debug;
+		};
+		940B199E22F64AC8A9AB8AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9658A864FE9A421FA8288F8F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9890315268AC4DC0B661FAA8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build/build;
+			};
+			name = MinSizeRel;
+		};
+		C1B21FFEDBC9475D8C580469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build/build;
+			};
+			name = Release;
+		};
+		C7C25647D4644DC593F6BAC5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		CB1D3F7A2D184319B6874742 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D7457B1B964742E088E1EDE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EFD0060A2BB840F6B0604B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = isogram;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FED952680FAC457D8AE1059C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = isogram;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/isogram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		279E932305C147A7A5561D9E /* Build configuration list for PBXNativeTarget "isogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD0060A2BB840F6B0604B52 /* Debug */,
+				44E5495075114ECBA948C9C5 /* Release */,
+				5B7FB5477C9E46FFAF958A19 /* MinSizeRel */,
+				FED952680FAC457D8AE1059C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3FC7320F52E349BE90BCF616 /* Build configuration list for PBXProject "isogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F5F82E377424E63B4BECFEF /* Debug */,
+				C1B21FFEDBC9475D8C580469 /* Release */,
+				9890315268AC4DC0B661FAA8 /* MinSizeRel */,
+				C7C25647D4644DC593F6BAC5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		610E46161CF440EA88BE7DB3 /* Build configuration list for PBXAggregateTarget "test_isogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705DF8C125B947B99DC00B18 /* Debug */,
+				2FE378878FC8411D9BD26D7B /* Release */,
+				1D9129926FF0414FB7A3D764 /* MinSizeRel */,
+				2B6F14E85F9246888C0DF1FA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80E46B53263649EBBEAD3531 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD63A5EC832459CA94A82F4 /* Debug */,
+				D7457B1B964742E088E1EDE7 /* Release */,
+				1F4C4D24BC034B89A9B4615F /* MinSizeRel */,
+				CB1D3F7A2D184319B6874742 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C964C49326974048822F25F3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54DBDA609D264EF0B6DEA316 /* Debug */,
+				940B199E22F64AC8A9AB8AA0 /* Release */,
+				4E97A8125A5B40E8B3D4ADBF /* MinSizeRel */,
+				9658A864FE9A421FA8288F8F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7085E1E83B9F44A397153E28 /* Project object */;
+}

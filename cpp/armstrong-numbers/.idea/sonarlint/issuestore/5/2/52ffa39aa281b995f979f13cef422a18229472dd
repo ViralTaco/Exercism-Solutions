@@ -1,0 +1,200 @@
+
+g	cpp:S1134Ì"LTake the required action to fix the issue indicated by this "FIXME" comment.(Œÿô±ùÿÿÿÿ
+O	cpp:S1135÷"4Complete the task associated to this "TODO" comment.(šÁ‘¾şÿÿÿÿ
+ecpp:NamespaceName_"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceName"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceNameÎ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceNameâ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceName"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+n	cpp:S3539È"SRemove this redundant access specifier; it does not change the accessibility level.(ÑÒÒøÿÿÿÿ
+n	cpp:S3539Î"SRemove this redundant access specifier; it does not change the accessibility level.(‘îËùÿÿÿÿ
+i	cpp:S3539Ù"SRemove this redundant access specifier; it does not change the accessibility level.(€ãÍù
+¦	cpp:S4963Š"ŠRemove this class' destructor, copy constructor, move constructor and copy assignment operator so that the class follows the rule of Zero.(è×ÿŠÿÿÿÿÿ
+}	cpp:S3230©"bDo not assign data members in a constructor. Initialize member "m_data" in an initialization list.(ıÁêÜûÿÿÿÿ
+D	cpp:S1709¬"/Add the "explicit" keyword to this constructor.(Ğó™
+D	cpp:S1709³"/Add the "explicit" keyword to this constructor.(ŞÓ×
+U	cpp:S5025¹":Rewrite the code so that you no longer need this "delete".(ßÁÂ…ıÿÿÿÿ
+U	cpp:S5025½":Rewrite the code so that you no longer need this "delete".(ßÁÂ…ıÿÿÿÿ
+m	cpp:S1709Ä"WReplace this conversion operator with a function or (C++11) add the "explicit" keyword.(¸·©ˆ
+fcpp:NamespaceNameü"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceNameí"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceName­"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+J	cpp:S1709³"/Add the "explicit" keyword to this constructor.(Îâ…›şÿÿÿÿ
+h	cpp:S5205³"MReplace this function pointer with a template parameter or a "std::function".(Îâ…›şÿÿÿÿ
+h	cpp:S5205¾"MReplace this function pointer with a template parameter or a "std::function".(©€Ä¶úÿÿÿÿ
+l	cpp:S5025¿"QReplace the use of "new" with an operation that automatically manages the memory.(šåØ»úÿÿÿÿ
+H	cpp:S3471Ê"2Annotate this function with "override" or "final".(Ùøé
+fcpp:NamespaceName¤"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceNameĞ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceNameï"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+g	cpp:S3231õ"LRemove this redundant forward declaration; the declaration was already made.(›¸Şúÿÿÿÿÿ
+fcpp:NamespaceNameÉ	"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+kcpp:NamespaceNameÊ	"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ü¨¡ïøÿÿÿÿ
+\	cpp:S6017è	"ACombine this function with its overloads by using "if constexpr".(ó†Àúÿÿÿÿ
+kcpp:NamespaceName¡
+"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ü¨¡ïøÿÿÿÿ
+H	cpp:S3630ñ
+"-Replace "reinterpret_cast" with a safer cast.(í¸¬ïúÿÿÿÿ
+H	cpp:S3630÷
+"-Replace "reinterpret_cast" with a safer cast.(í¸¬ïúÿÿÿÿ
+kcpp:NamespaceNameÔ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ü¨¡ïøÿÿÿÿ
+fcpp:NamespaceNameó"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceName¶"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+Qcpp:CommaAndOrOverloadedá",Remove the overloading of the '&&' operator.(ó€—ú
+Á	cpp:S5951á"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-0-1 &>'.(ó€—ú
+Pcpp:CommaAndOrOverloadedè",Remove the overloading of the '||' operator.(ä˜ñR
+À	cpp:S5951è"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-0-1 &>'.(ä˜ñR
+Á	cpp:S5951ï"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-0-1 &>'.(§¿
+À	cpp:S5951ö"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-0-1 &>'.(‡±³h
+Æ	cpp:S5951ı"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-0-1 &>'.(¬ğşæşÿÿÿÿ
+Æ	cpp:S5951„"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-0-1 &>'.(À³çöüÿÿÿÿ
+Æ	cpp:S5951‹"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-0-1 &>'.(Ë­½‘ùÿÿÿÿ
+Á	cpp:S5951’"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-0-1 &>'.(û³í’
+H	cpp:S3630¬"-Replace "reinterpret_cast" with a safer cast.(®ºë›ûÿÿÿÿ
+C	cpp:S3630®"-Replace "reinterpret_cast" with a safer cast.(ùå„É
+H	cpp:S3630°"-Replace "reinterpret_cast" with a safer cast.(Òí¨üÿÿÿÿ
+H	cpp:S3630²"-Replace "reinterpret_cast" with a safer cast.(Óê¶úÿÿÿÿ
+[	cpp:S5425µ"E"std::forward" is never called on this forwarding reference argument.(¶¼ÇÇ
+H	cpp:S3630·"-Replace "reinterpret_cast" with a safer cast.(ƒÅãÿÿÿÿÿ
+H	cpp:S3630¹"-Replace "reinterpret_cast" with a safer cast.(³ÏßËıÿÿÿÿ
+H	cpp:S3630»"-Replace "reinterpret_cast" with a safer cast.(ß¹ıÒüÿÿÿÿ
+H	cpp:S3630½"-Replace "reinterpret_cast" with a safer cast.(ƒœÿıÿÿÿÿ
+Á	cpp:S5951Æ"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-1-0 &>'.(®ã¸Ş
+±	cpp:S5951É"•Remove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, _Bool>'.(ïœÔùÿÿÿÿ
+Æ	cpp:S5951Î"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-1-0 &>'.(òƒ­øÿÿÿÿ
+±	cpp:S5951Ñ"•Remove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, _Bool>'.(€âÒüÿÿÿÿ
+Æ	cpp:S5951Ö"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-1-0 &>'.(¨ğ¢’øÿÿÿÿ
+Á	cpp:S5951Ú"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-1-0 &>'.(¾‘ùß
+Á	cpp:S5951Ş"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-1-0 &>'.(œ÷—˜
+Á	cpp:S5951â"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-1-0 &>'.(ÍáÑü
+Pcpp:CommaAndOrOverloadedç",Remove the overloading of the '&&' operator.(îçì~
+À	cpp:S5951ç"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-1-0 &>'.(îçì~
+Vcpp:CommaAndOrOverloadedî",Remove the overloading of the '||' operator.(ÈúËœüÿÿÿÿ
+Æ	cpp:S5951î"ªRemove the top level const qualifier from the return type of this function. The current return type is 'const BinaryExpr<type-parameter-0-0, const type-parameter-1-0 &>'.(ÈúËœüÿÿÿÿ
+=	cpp:S5817†"'This function should be declared const.(éºûş
+fcpp:NamespaceName–"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+g	cpp:S3231™"LRemove this redundant forward declaration; the declaration was already made.(µíÈ¹ûÿÿÿÿ
+b	cpp:S3231¢"LRemove this redundant forward declaration; the declaration was already made.(¤è®ì
+b	cpp:S3231¤"LRemove this redundant forward declaration; the declaration was already made.(³€•ù
+fcpp:NamespaceNameà"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+g	cpp:S3231ä"LRemove this redundant forward declaration; the declaration was already made.(›—š¯üÿÿÿÿ
+t	cpp:S3624ç"^Explicitly define or delete the missing destructor so that it will not be implicitly provided.( ûú¸
+e	cpp:S4963ç"ORemove this class' copy constructor so that the class follows the rule of Zero.( ûú¸
+J	cpp:S1709ï"/Add the "explicit" keyword to this constructor.(İ‰€Úûÿÿÿÿ
+ß	cpp:S3624ı"ÃExplicitly define or delete the missing copy constructor so that it will not be implicitly provided. Additionally, you may consider defining the move assignment operator and the move constructor.(ê™ÍÇÿÿÿÿÿ
+d	cpp:S4963ı"IRemove this class' destructor so that the class follows the rule of Zero.(ê™ÍÇÿÿÿÿÿ
+fcpp:NamespaceName®"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+{	cpp:S5018Ş"`Ensure that the move constructor of "ScopedMessage" is exception-free and declare it "noexcept".(Óó¿áøÿÿÿÿ
+j	cpp:S4963Ú"ORemove this class' move constructor so that the class follows the rule of Zero.(ÅßËÙûÿÿÿÿ
+fcpp:NamespaceName“"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceName²"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceNameÑ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceNameå"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+m	cpp:S5965ç"WState explicitly the access specifier of this base-specifier. It is implicitly private.(³ø§Ó
+J	cpp:S1709é"/Add the "explicit" keyword to this constructor.(ğï¸÷ÿÿÿÿÿ
+H	cpp:S3471ê"2Annotate this function with "override" or "final".(«»ß„
+fcpp:NamespaceNameŠ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+E	cpp:S1709—"/Add the "explicit" keyword to this constructor.(æ ÓŸ
+fcpp:NamespaceNameº"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+g	cpp:S3231¼"LRemove this redundant forward declaration; the declaration was already made.(Ğœ”şÿÿÿÿ
+b	cpp:S3231½"LRemove this redundant forward declaration; the declaration was already made.(Íé÷Ü
+fcpp:NamespaceNameî"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+b	cpp:S3231ñ"LRemove this redundant forward declaration; the declaration was already made.(¯Œ„ò
+E	cpp:S1709„"/Add the "explicit" keyword to this constructor.(Š€“É
+c	cpp:S5205„"MReplace this function pointer with a template parameter or a "std::function".(Š€“É
+?	cpp:S3656•"$Make this member variable "private".(Œ¹™‘ùÿÿÿÿ
+J	cpp:S1709š"/Add the "explicit" keyword to this constructor.(ú»áÍÿÿÿÿÿ
+h	cpp:S5205š"MReplace this function pointer with a template parameter or a "std::function".(ú»áÍÿÿÿÿÿ
+fcpp:NamespaceName°"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+kcpp:NamespaceName±"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ü¨¡ïøÿÿÿÿ
+B	cpp:S5817Å"'This function should be declared const.(îåîùşÿÿÿÿ
+=	cpp:S5827ü"'Replace the redundant type with "auto".(ö‡ß
+B	cpp:S5827ƒ"'Replace the redundant type with "auto".(êî×ùÿÿÿÿ
+fcpp:NamespaceNameª"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceNameÉ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+J	cpp:S5812Ê"/Concatenate this namespace with the nested one.(ÀóÕÿÿÿÿÿ
+kcpp:NamespaceNameÊ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ÀóÕÿÿÿÿÿ
+fcpp:NamespaceNameË"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(¿¶ì¦
+:	cpp:S3656Û"$Make this member variable "private".(ÈßÔÏ
+Qcpp:CommaAndOrOverloadedï",Remove the overloading of the '&&' operator.(ÚÊÚÌ
+Vcpp:CommaAndOrOverloadedğ",Remove the overloading of the '||' operator.(ô’©‡ûÿÿÿÿ
+Vcpp:CommaAndOrOverloaded",Remove the overloading of the '&&' operator.(ßÑ±òùÿÿÿÿ
+Qcpp:CommaAndOrOverloaded®",Remove the overloading of the '||' operator.(½¨Æ
+J	cpp:S1709¹"/Add the "explicit" keyword to this constructor.(ø¬½…øÿÿÿÿ
+E	cpp:S5812á"/Concatenate this namespace with the nested one.(™âãÑ
+fcpp:NamespaceNameá"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+kcpp:NamespaceNameâ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ÀóÕÿÿÿÿÿ
+ecpp:NamespaceNameä"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(Œ’‚#
+E	cpp:S5812Œ"/Concatenate this namespace with the nested one.(™âãÑ
+fcpp:NamespaceNameŒ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+kcpp:NamespaceName"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ÀóÕÿÿÿÿÿ
+fcpp:NamespaceName"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(êé•å
+kcpp:NamespaceName"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ü¨¡ïøÿÿÿÿ
+E	cpp:S5812»"/Concatenate this namespace with the nested one.(™âãÑ
+fcpp:NamespaceName»"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+kcpp:NamespaceName¼"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ÀóÕÿÿÿÿÿ
+kcpp:NamespaceName¾"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(úëø¿ıÿÿÿÿ
+E	cpp:S1709Ó"/Add the "explicit" keyword to this constructor.(·¦Æ¶
+J	cpp:S1709×"/Add the "explicit" keyword to this constructor.(°Ä¨Ÿÿÿÿÿÿ
+J	cpp:S1709Û"/Add the "explicit" keyword to this constructor.(ıîØ§ùÿÿÿÿ
+J	cpp:S1709ß"/Add the "explicit" keyword to this constructor.(ê†õ¯øÿÿÿÿ
+E	cpp:S5812€"/Concatenate this namespace with the nested one.(™âãÑ
+fcpp:NamespaceName€"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+kcpp:NamespaceName"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ÀóÕÿÿÿÿÿ
+kcpp:NamespaceNameƒ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(áíÊåıÿÿÿÿ
+kcpp:NamespaceName„"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ü¨¡ïøÿÿÿÿ
+D	cpp:S1709"/Add the "explicit" keyword to this constructor.(Ÿ€ E
+J	cpp:S5566 "5Replace this range for-loop by "std::ranges::any_of".(í†Å
+E	cpp:S1709²"/Add the "explicit" keyword to this constructor.(í¬ì¼
+E	cpp:S1709Ğ"/Add the "explicit" keyword to this constructor.(àôÛ‡
+bcpp:S127Ù"MCalculate the stop condition value outside the loop and set it to a variable.(ïå¿†
+J	cpp:S1709æ"/Add the "explicit" keyword to this constructor.(Ü°Ûøÿÿÿÿ
+fcpp:NamespaceName©"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceNameô"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+kcpp:NamespaceNameö"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ˆ™•¨ÿÿÿÿÿ
+fcpp:NamespaceName“"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+fcpp:NamespaceName³"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+J	cpp:S1709¹"/Add the "explicit" keyword to this constructor.(íÎóºşÿÿÿÿ
+E	cpp:S3471½"/Drop the "override" specifier; it is redundant.(Íï´æ
+kcpp:NamespaceNameÀ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ˆ™•¨ÿÿÿÿÿ
+E	cpp:S3471Ì"/Use "override" or "final" instead of "virtual".(ıñ·
+E	cpp:S1709Ú"/Add the "explicit" keyword to this constructor.(¶‘µß
+D	cpp:S1709Û"/Add the "explicit" keyword to this constructor.(¬™
+E	cpp:S1709ê"/Add the "explicit" keyword to this constructor.(£‡©Ô
+J	cpp:S1709ù"/Add the "explicit" keyword to this constructor.(¶§‰¨üÿÿÿÿ
+`	cpp:S5425™"E"std::forward" is never called on this forwarding reference argument.(ÒïÒóùÿÿÿÿ
+u	cpp:S5417š"Z"std::move" shouldn't be called on a forwarding reference. Replace it with "std::forward".(ùì‚Äúÿÿÿÿ
+U	cpp:S5417Ÿ"?"std::forward" should only be called on a forwarding reference.( Ûí¥
+E	cpp:S1709¤"/Add the "explicit" keyword to this constructor.(éê´Ô
+U	cpp:S5417¦"?"std::forward" should only be called on a forwarding reference.( Ûí¥
+f	cpp:S6004²"KUse the init-statement to declare "current_status" inside the if statement.(Ü°öşÿÿÿÿ
+Z	cpp:S5417Ä"?"std::forward" should only be called on a forwarding reference.(ñ¹ó±ùÿÿÿÿ
+U	cpp:S5417Ì"?"std::forward" should only be called on a forwarding reference.(•¡Àû
+Z	cpp:S5417Ğ"?"std::forward" should only be called on a forwarding reference.(£Ğæÿüÿÿÿÿ
+E	cpp:S5812î"/Concatenate this namespace with the nested one.(™âãÑ
+fcpp:NamespaceNameî"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+kcpp:NamespaceNameï"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ˆ™•¨ÿÿÿÿÿ
+{&cpp:SideEffectInRightHandSideOfLogical²"HRemove any side effects from right hand operands of logical && operator.(ı™úÆ
+Z	cpp:S6004Ü"DUse the init-statement to declare "success" inside the if statement.(Û¹¯â
+fcpp:NamespaceNameÌ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+g	cpp:S3231Î"LRemove this redundant forward declaration; the declaration was already made.(›—š¯üÿÿÿÿ
+b	cpp:S3231Ğ"LRemove this redundant forward declaration; the declaration was already made.(•‰®›
+E	cpp:S3471à"/Use "override" or "final" instead of "virtual".(¡òˆ¿
+fcpp:NamespaceNameƒ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+ocpp:EnumPartialInitialization "@Initialize none, only the first, or all enumeration definitions.(Î€¶§ûÿÿÿÿ
+b	cpp:S3231§"LRemove this redundant forward declaration; the declaration was already made.(Ô Èš
+J	cpp:S3471«"/Use "override" or "final" instead of "virtual".(è¿½úÿÿÿÿ
+E	cpp:S5812Ç"/Concatenate this namespace with the nested one.(™âãÑ
+fcpp:NamespaceNameÇ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+kcpp:NamespaceNameÈ"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(ˆ™•¨ÿÿÿÿÿ
+<	cpp:S1110¨ "!Remove these useless parentheses.(ˆÍ¨»ÿÿÿÿÿ
+fcpp:NamespaceNameÊ "HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+b	cpp:S3231Ì "LRemove this redundant forward declaration; the declaration was already made.(ãø«ê
+fcpp:NamespaceName!"HRename this namespace to match the regular expression: ^[a-z][a-z_0-9]*$(™âãÑ
+ƒ	cpp:S6187°"mDefine operator<=> and remove operators <, <=, >, >= for operand types "SourceLineInfo" and "SourceLineInfo".(½˜À
+j	cpp:S6186É"TKeep operator== and remove operator!= for operand types "StringRef" and "StringRef".(Ùë¯œ
+}	cpp:S6187¼"gDefine operator<=> and remove operators <, <=, >, >= for operand types "MessageInfo" and "MessageInfo".(¦ğ™Ÿ
+w	cpp:S6187ı "aDefine operator<=> and remove operators <, <=, >, >= for operand types "TestCase" and "TestCase".(„†½ü
+ˆ	cpp:S3230é"mDo not use the constructor's initializer list for data member "m_rand". Use the in-class initializer instead.(‚ÔÈ€ûÿÿÿÿ
+	cpp:S3230™"sDo not use the constructor's initializer list for data member "m_resolution". Use the in-class initializer instead.(âí¥ıûÿÿÿÿ
+ˆ	cpp:S3230Ó"mDo not use the constructor's initializer list for data member "m_rand". Use the in-class initializer instead.(‚ÔÈ€ûÿÿÿÿ

@@ -1,0 +1,4 @@
+/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/CMakeFiles/test_sum-of-multiples.dir
+/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/CMakeFiles/sum-of-multiples.dir
+/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/CMakeFiles/ZERO_CHECK.dir

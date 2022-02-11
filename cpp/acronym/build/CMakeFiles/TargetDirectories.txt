@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/projects/Exercism/cpp/acronym/build/CMakeFiles/test_acronym.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/acronym/build/CMakeFiles/acronym.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/acronym/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/acronym/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,1004 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4CA6B4F038CA4B8A847838D4 /* test_pascals-triangle */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1B46FE4268154ECFB69A885E /* Build configuration list for PBXAggregateTarget "test_pascals-triangle" */;
+			buildPhases = (
+				EDA0CCDFF05F48A8B0583C23 /* CMake Rules */,
+			);
+			dependencies = (
+				0D5856CED5CC4AD9BB5B22EB /* PBXTargetDependency */,
+				EA12C37C694343D7986DA577 /* PBXTargetDependency */,
+			);
+			name = "test_pascals-triangle";
+			productName = "test_pascals-triangle";
+		};
+		74B0D8F1BB824E8AB0608BAE /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F39FCB867ED645BAADC07CD4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				F42342B90F854C2C91AB21A5 /* CMake Rules */,
+			);
+			dependencies = (
+				03E30E2F55D14AD2A8ED0608 /* PBXTargetDependency */,
+				970CDF8380C94AFD89483125 /* PBXTargetDependency */,
+				1C4A10E69D3B49938160973A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B6AD2E13BD7D4F0990FF3B30 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2184DEDE0FED404EAC2C80FF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				53053C3D78094EFAA27EB0CA /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		137581B51B7A4748A2ADD481 /* tests-main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F99BCDC1D4244FCBA66CE261 /* tests-main.cpp */; };
+		AB6DDFADA5094762BFCD0363 /* pascals_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 122D692C7FC745E39CCCA1A4 /* pascals_triangle.cpp */; };
+		B836B68B0B6F4B93B40D1C66 /* pascals_triangle_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A484B8122AA4E56AF45D4E1 /* pascals_triangle_test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		199F6B05335C416E9E6102EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327D7CBEE5FC4B29854983D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6AD2E13BD7D4F0990FF3B30;
+			remoteInfo = ZERO_CHECK;
+		};
+		25E30EBDB6544D6581335823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327D7CBEE5FC4B29854983D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D575E774AD7A46EAA4F3A00E;
+			remoteInfo = "pascals-triangle";
+		};
+		3B2CDE16E61742D7AB7EA26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327D7CBEE5FC4B29854983D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6AD2E13BD7D4F0990FF3B30;
+			remoteInfo = ZERO_CHECK;
+		};
+		657F1AD1C1EF4E4BB8046C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327D7CBEE5FC4B29854983D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6AD2E13BD7D4F0990FF3B30;
+			remoteInfo = ZERO_CHECK;
+		};
+		715F4CCCB2034511890BA133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327D7CBEE5FC4B29854983D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D575E774AD7A46EAA4F3A00E;
+			remoteInfo = "pascals-triangle";
+		};
+		E2D337AC7E9C4883888E5B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327D7CBEE5FC4B29854983D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA6B4F038CA4B8A847838D4;
+			remoteInfo = "test_pascals-triangle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A484B8122AA4E56AF45D4E1 /* pascals_triangle_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = pascals_triangle_test.cpp; sourceTree = SOURCE_ROOT; };
+		122D692C7FC745E39CCCA1A4 /* pascals_triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = pascals_triangle.cpp; sourceTree = SOURCE_ROOT; };
+		39F241B9A2B048E596E4C2D8 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		51BA23B39BA946FB9C7D5CE0 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B194483DA5A74FCDAA63C7BC /* pascals_triangle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = pascals_triangle.h; sourceTree = SOURCE_ROOT; };
+		D828A0E0261FCF1C0067264C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DF5C5740A163481A984AE950 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F4ADAE935FDD4AA29A030174 /* pascals-triangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "pascals-triangle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99BCDC1D4244FCBA66CE261 /* tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		362495DA810F4155B4B7C814 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		40DD68C44AC4440F93E7B2C4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				122D692C7FC745E39CCCA1A4 /* pascals_triangle.cpp */,
+				0A484B8122AA4E56AF45D4E1 /* pascals_triangle_test.cpp */,
+				F99BCDC1D4244FCBA66CE261 /* tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		88BAB3963A1C465AAD8D22D9 /* test_pascals-triangle */ = {
+			isa = PBXGroup;
+			children = (
+				8D68DD05E218410F998D2B9E /* CMake Rules */,
+				39F241B9A2B048E596E4C2D8 /* CMakeLists.txt */,
+			);
+			name = "test_pascals-triangle";
+			sourceTree = "<group>";
+		};
+		88D90A04878E4999AFDFEF43 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				362495DA810F4155B4B7C814 /* CMake Rules */,
+				51BA23B39BA946FB9C7D5CE0 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8D68DD05E218410F998D2B9E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BB34DB4EA96E4A068F49D71F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4ADAE935FDD4AA29A030174 /* pascals-triangle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D269D59CAF4C44688ACBB148 /* pascals-triangle */ = {
+			isa = PBXGroup;
+			children = (
+				40DD68C44AC4440F93E7B2C4 /* Source Files */,
+				F5430E3CF79B4EFD827DE17C /* Header Files */,
+				DF5C5740A163481A984AE950 /* CMakeLists.txt */,
+			);
+			name = "pascals-triangle";
+			sourceTree = "<group>";
+		};
+		DCE502F4C097483C97F1E5DA = {
+			isa = PBXGroup;
+			children = (
+				D828A0E0261FCF1C0067264C /* README.md */,
+				88BAB3963A1C465AAD8D22D9 /* test_pascals-triangle */,
+				D269D59CAF4C44688ACBB148 /* pascals-triangle */,
+				88D90A04878E4999AFDFEF43 /* ALL_BUILD */,
+				BB34DB4EA96E4A068F49D71F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5430E3CF79B4EFD827DE17C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B194483DA5A74FCDAA63C7BC /* pascals_triangle.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D575E774AD7A46EAA4F3A00E /* pascals-triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29C76484ED54982A19251CB /* Build configuration list for PBXNativeTarget "pascals-triangle" */;
+			buildPhases = (
+				71DC3239FCBB417D9AD80506 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8B406DE1E7D43E3B96D3A13 /* PBXTargetDependency */,
+			);
+			name = "pascals-triangle";
+			productName = "pascals-triangle";
+			productReference = F4ADAE935FDD4AA29A030174 /* pascals-triangle */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		327D7CBEE5FC4B29854983D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = B57F2E0ED6654787B859EB54 /* Build configuration list for PBXProject "pascals-triangle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCE502F4C097483C97F1E5DA;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				74B0D8F1BB824E8AB0608BAE /* ALL_BUILD */,
+				B6AD2E13BD7D4F0990FF3B30 /* ZERO_CHECK */,
+				D575E774AD7A46EAA4F3A00E /* pascals-triangle */,
+				4CA6B4F038CA4B8A847838D4 /* test_pascals-triangle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53053C3D78094EFAA27EB0CA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build -f /Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		EDA0CCDFF05F48A8B0583C23 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build -f /Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/CMakeScripts/test_pascals-triangle_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		F42342B90F854C2C91AB21A5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build -f /Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71DC3239FCBB417D9AD80506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6DDFADA5094762BFCD0363 /* pascals_triangle.cpp in Sources */,
+				B836B68B0B6F4B93B40D1C66 /* pascals_triangle_test.cpp in Sources */,
+				137581B51B7A4748A2ADD481 /* tests-main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03E30E2F55D14AD2A8ED0608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA6B4F038CA4B8A847838D4 /* test_pascals-triangle */;
+			targetProxy = E2D337AC7E9C4883888E5B0A /* PBXContainerItemProxy */;
+		};
+		0D5856CED5CC4AD9BB5B22EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D575E774AD7A46EAA4F3A00E /* pascals-triangle */;
+			targetProxy = 715F4CCCB2034511890BA133 /* PBXContainerItemProxy */;
+		};
+		1C4A10E69D3B49938160973A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6AD2E13BD7D4F0990FF3B30 /* ZERO_CHECK */;
+			targetProxy = 657F1AD1C1EF4E4BB8046C79 /* PBXContainerItemProxy */;
+		};
+		970CDF8380C94AFD89483125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D575E774AD7A46EAA4F3A00E /* pascals-triangle */;
+			targetProxy = 25E30EBDB6544D6581335823 /* PBXContainerItemProxy */;
+		};
+		D8B406DE1E7D43E3B96D3A13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6AD2E13BD7D4F0990FF3B30 /* ZERO_CHECK */;
+			targetProxy = 199F6B05335C416E9E6102EE /* PBXContainerItemProxy */;
+		};
+		EA12C37C694343D7986DA577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6AD2E13BD7D4F0990FF3B30 /* ZERO_CHECK */;
+			targetProxy = 3B2CDE16E61742D7AB7EA26B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08DAB43C4EEE460B8024CDD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		1A916F6F073748DDB8AB216D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		208A1B5DE1284ACB8F003AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/build";
+			};
+			name = Release;
+		};
+		220352653CB042AA814BA013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/build";
+			};
+			name = Debug;
+		};
+		46470D5FAF144C55BAC06AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		49C3578487F54FE6A9067A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-Wall",
+					"-Wextra",
+					"-Wpedantic",
+					"-Werror",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/opt/ncurses/lib",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "pascals-triangle";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		8544793FCEA443D894CA58F8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		8D4F66C5173D4384B7C74A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		9D8F028BAD5B4E2FA75F3E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		B449015C5DA447B5BA03BB7C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-Wall",
+					"-Wextra",
+					"-Wpedantic",
+					"-Werror",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/opt/ncurses/lib",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "pascals-triangle";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		B7DAEE06EA104A6A8421EF94 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-Wall",
+					"-Wextra",
+					"-Wpedantic",
+					"-Werror",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/opt/ncurses/lib",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "pascals-triangle";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		BB8623CD0F134333A133FF54 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		C6B4A8AB47994FF38CFA27DE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		CBB807D109864508925DA6BC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/build";
+			};
+			name = MinSizeRel;
+		};
+		EEA99A96A2FE4FF3B6620B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_pascals-triangle";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		F0CD26E1F9224E2C966B3AB1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		F5A3AEDD7B1244B889C6BD79 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_pascals-triangle";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		F643CA81B9AB4C87B67771E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wpedantic",
+					"-Werror",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/opt/ncurses/lib",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "pascals-triangle";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		F99BDAEE75604D0182D06B38 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_pascals-triangle";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		FC1DAEE651BA48CF947BD336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_pascals-triangle";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B46FE4268154ECFB69A885E /* Build configuration list for PBXAggregateTarget "test_pascals-triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1DAEE651BA48CF947BD336 /* Debug */,
+				EEA99A96A2FE4FF3B6620B88 /* Release */,
+				F5A3AEDD7B1244B889C6BD79 /* MinSizeRel */,
+				F99BDAEE75604D0182D06B38 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2184DEDE0FED404EAC2C80FF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8F028BAD5B4E2FA75F3E37 /* Debug */,
+				46470D5FAF144C55BAC06AB9 /* Release */,
+				1A916F6F073748DDB8AB216D /* MinSizeRel */,
+				F0CD26E1F9224E2C966B3AB1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B57F2E0ED6654787B859EB54 /* Build configuration list for PBXProject "pascals-triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220352653CB042AA814BA013 /* Debug */,
+				208A1B5DE1284ACB8F003AED /* Release */,
+				CBB807D109864508925DA6BC /* MinSizeRel */,
+				C6B4A8AB47994FF38CFA27DE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C29C76484ED54982A19251CB /* Build configuration list for PBXNativeTarget "pascals-triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F643CA81B9AB4C87B67771E3 /* Debug */,
+				49C3578487F54FE6A9067A89 /* Release */,
+				B7DAEE06EA104A6A8421EF94 /* MinSizeRel */,
+				B449015C5DA447B5BA03BB7C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F39FCB867ED645BAADC07CD4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08DAB43C4EEE460B8024CDD6 /* Debug */,
+				8D4F66C5173D4384B7C74A47 /* Release */,
+				BB8623CD0F134333A133FF54 /* MinSizeRel */,
+				8544793FCEA443D894CA58F8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 327D7CBEE5FC4B29854983D3 /* Project object */;
+}

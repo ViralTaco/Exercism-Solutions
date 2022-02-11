@@ -1,0 +1,3 @@
+
+6	cpp:S1481"!Remove unused lambda capture 'i'.(¥µ‰¬
+k	cpp:S1172"VRemove the unused parameter "last", make it unnamed, or declare it "[[maybe_unused]]".(¥µ‰¬

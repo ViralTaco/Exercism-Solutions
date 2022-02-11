@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/projects/Exercism/cpp/food-chain/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/food-chain/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/food-chain/cmake-build-debug/CMakeFiles/test_food-chain.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/food-chain/cmake-build-debug/CMakeFiles/food-chain.dir

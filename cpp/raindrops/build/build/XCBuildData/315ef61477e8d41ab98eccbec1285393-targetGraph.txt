@@ -1,0 +1,11 @@
+Target dependency graph (4 targets)
+ZERO_CHECK in raindrops
+raindrops in raindrops, depends on:
+ZERO_CHECK in raindrops (explicit)
+test_raindrops in raindrops, depends on:
+ZERO_CHECK in raindrops (explicit)
+raindrops in raindrops (explicit)
+ALL_BUILD in raindrops, depends on:
+ZERO_CHECK in raindrops (explicit)
+test_raindrops in raindrops (explicit)
+raindrops in raindrops (explicit)

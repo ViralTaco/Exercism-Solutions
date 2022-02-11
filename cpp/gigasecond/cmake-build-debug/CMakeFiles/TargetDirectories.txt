@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/gigasecond/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/gigasecond/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/gigasecond/cmake-build-debug/CMakeFiles/test_gigasecond.dir
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/gigasecond/cmake-build-debug/CMakeFiles/gigasecond.dir

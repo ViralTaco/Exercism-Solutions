@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0DDA5202794A4A30AAB0A254 /* test_rna-transcription */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AB6097E18A1B442998A8CAAB /* Build configuration list for PBXAggregateTarget "test_rna-transcription" */;
+			buildPhases = (
+				E1546AA62B4A0E5DE1322D5C /* Generate CMakeFiles/test_rna-transcription */,
+			);
+			dependencies = (
+				61ABB72FBD674D5B9F5B0632 /* PBXTargetDependency */,
+				E70BE8C6D5314A0994AB2ABC /* PBXTargetDependency */,
+			);
+			name = "test_rna-transcription";
+			productName = "test_rna-transcription";
+		};
+		3C13773F13BA4759841BCB82 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3763A9C895284C1E93756D14 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				67ECF051110756174FD36943 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				724DB0939A594DE88314FB65 /* PBXTargetDependency */,
+				7EA32882F55D4CAD86389A12 /* PBXTargetDependency */,
+				AE5A644195D3438CAF9D3256 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		462F220488D6498BB440B29E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C8D8D8E2745A46CFB9B524DF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				314550D9D378F7FD9ACB68C2 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5C48740B95FF4B258CEE0BC7 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = CABBAD7EDBE145FB9B777AAF /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/test/tests-main.cpp */; };
+		9ADF928C7E3F473AAF0FD411 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 63564FD5A6D04DD79797DA4F /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/CMakeLists.txt */; };
+		9BB5C3FB4C04459E97D839AD /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/rna_transcription.cpp */ = {isa = PBXBuildFile; fileRef = 85A8F5B2488D4693A205A188 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/rna_transcription.cpp */; };
+		C64D796DA69944BE850A1C2A /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/rna_transcription_test.cpp */ = {isa = PBXBuildFile; fileRef = 52A9F232C7A245DEAD453562 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/rna_transcription_test.cpp */; };
+		C6DFE0C4408A4C05A6D2883D /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/rna_transcription.h */ = {isa = PBXBuildFile; fileRef = 11EECBEE508841AA88F98691 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/rna_transcription.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4D6F01A227FA45CDBACB57E4 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		4F895D5BC1CF458ABBC13191 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		731EB3D7CC7347E6B6FFE64B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D831D14AC604453F9DFF816C /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2862EC04ADD345DAB8D8813F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3A9E0A38A94550B459C552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE03D17DACBD488DA847E856;
+			remoteInfo = "rna-transcription";
+		};
+		320577B0727F449D97EE0104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3A9E0A38A94550B459C552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE03D17DACBD488DA847E856;
+			remoteInfo = "rna-transcription";
+		};
+		6C1A40E4AE17478BBDD4F5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3A9E0A38A94550B459C552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 462F220488D6498BB440B29E;
+			remoteInfo = ZERO_CHECK;
+		};
+		7888E46B376446B882C92F85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3A9E0A38A94550B459C552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 462F220488D6498BB440B29E;
+			remoteInfo = ZERO_CHECK;
+		};
+		86537A577B9B4BE183B3965A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3A9E0A38A94550B459C552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 462F220488D6498BB440B29E;
+			remoteInfo = ZERO_CHECK;
+		};
+		8891094403374D019755E724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3A9E0A38A94550B459C552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DDA5202794A4A30AAB0A254;
+			remoteInfo = "test_rna-transcription";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11EECBEE508841AA88F98691 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/rna_transcription.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rna_transcription.h; path = rna_transcription.h; sourceTree = SOURCE_ROOT; };
+		52A9F232C7A245DEAD453562 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/rna_transcription_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rna_transcription_test.cpp; path = rna_transcription_test.cpp; sourceTree = SOURCE_ROOT; };
+		5F34151D337C4F1084B3C68F /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		63564FD5A6D04DD79797DA4F /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		76059D91B11344F6A9F222CE /* rna-transcription */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "rna-transcription"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A8F5B2488D4693A205A188 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/rna_transcription.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rna_transcription.cpp; path = rna_transcription.cpp; sourceTree = SOURCE_ROOT; };
+		9A3EB346753E4832A60F6483 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CABBAD7EDBE145FB9B777AAF /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE6FA44F0D7741CA8A94BBB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F13B7365C7E4FDF8B70CA78 /* rna-transcription */ = {
+			isa = PBXGroup;
+			children = (
+				134F1E2B22E449028E38107E /* Source Files */,
+				67C4BEE907554B98AAC9D127 /* Header Files */,
+				63564FD5A6D04DD79797DA4F /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/CMakeLists.txt */,
+			);
+			name = "rna-transcription";
+			sourceTree = "<group>";
+		};
+		134F1E2B22E449028E38107E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A8F5B2488D4693A205A188 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/rna_transcription.cpp */,
+				52A9F232C7A245DEAD453562 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/rna_transcription_test.cpp */,
+				CABBAD7EDBE145FB9B777AAF /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1B1B3D3AC39B4274B4D1DF5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76059D91B11344F6A9F222CE /* rna-transcription */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EC70D58E37A4BD48A77C6DA = {
+			isa = PBXGroup;
+			children = (
+				63C4918B022341DAAF7032DF /* test_rna-transcription */,
+				0F13B7365C7E4FDF8B70CA78 /* rna-transcription */,
+				3F1A1BC1303D4E189445AF62 /* ALL_BUILD */,
+				1B1B3D3AC39B4274B4D1DF5B /* Products */,
+				B77E273C94D64408B3BE9FEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1A1BC1303D4E189445AF62 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C14F11C79D5446BABC0D4564 /* CMake Rules */,
+				5F34151D337C4F1084B3C68F /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		63C4918B022341DAAF7032DF /* test_rna-transcription */ = {
+			isa = PBXGroup;
+			children = (
+				FCA32AF4A8CF45E18DB88296 /* CMake Rules */,
+				9A3EB346753E4832A60F6483 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/CMakeLists.txt */,
+			);
+			name = "test_rna-transcription";
+			sourceTree = "<group>";
+		};
+		67C4BEE907554B98AAC9D127 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				11EECBEE508841AA88F98691 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/rna_transcription.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B77E273C94D64408B3BE9FEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C14F11C79D5446BABC0D4564 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FCA32AF4A8CF45E18DB88296 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE03D17DACBD488DA847E856 /* rna-transcription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C46461DF084823967DE469 /* Build configuration list for PBXNativeTarget "rna-transcription" */;
+			buildPhases = (
+				5D255870C4F448919A262C95 /* Sources */,
+				BE6FA44F0D7741CA8A94BBB3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1EA68918FE4F1497B1E2AD /* PBXTargetDependency */,
+			);
+			name = "rna-transcription";
+			productName = "rna-transcription";
+			productReference = 76059D91B11344F6A9F222CE /* rna-transcription */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E3A9E0A38A94550B459C552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = FE36B337C434408B846FEB79 /* Build configuration list for PBXProject "rna-transcription" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4D6F01A227FA45CDBACB57E4 /* Debug */,
+				731EB3D7CC7347E6B6FFE64B /* Release */,
+				4F895D5BC1CF458ABBC13191 /* MinSizeRel */,
+				D831D14AC604453F9DFF816C /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3EC70D58E37A4BD48A77C6DA;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				3C13773F13BA4759841BCB82 /* ALL_BUILD */,
+				462F220488D6498BB440B29E /* ZERO_CHECK */,
+				DE03D17DACBD488DA847E856 /* rna-transcription */,
+				0DDA5202794A4A30AAB0A254 /* test_rna-transcription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		314550D9D378F7FD9ACB68C2 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build
+  make -f /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build
+  make -f /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build
+  make -f /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build
+  make -f /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		67ECF051110756174FD36943 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A6BFC0FCCF0FDF4640FC6EC0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E1546AA62B4A0E5DE1322D5C /* Generate CMakeFiles/test_rna-transcription */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/Debug/rna-transcription","/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/MinSizeRel/rna-transcription","/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/RelWithDebInfo/rna-transcription","/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/Release/rna-transcription"			);
+			name = "Generate CMakeFiles/test_rna-transcription";
+			outputPaths = (
+"/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/CMakeFiles/test_rna-transcription"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build
+  /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/Debug/rna-transcription
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build
+  /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/Release/rna-transcription
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build
+  /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/MinSizeRel/rna-transcription
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build
+  /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/RelWithDebInfo/rna-transcription
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D255870C4F448919A262C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB5C3FB4C04459E97D839AD /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/rna_transcription.cpp */,
+				C64D796DA69944BE850A1C2A /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/rna_transcription_test.cpp */,
+				5C48740B95FF4B258CEE0BC7 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61ABB72FBD674D5B9F5B0632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 462F220488D6498BB440B29E /* ZERO_CHECK */;
+			targetProxy = 86537A577B9B4BE183B3965A /* PBXContainerItemProxy */;
+		};
+		724DB0939A594DE88314FB65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 462F220488D6498BB440B29E /* ZERO_CHECK */;
+			targetProxy = 6C1A40E4AE17478BBDD4F5CD /* PBXContainerItemProxy */;
+		};
+		7EA32882F55D4CAD86389A12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DDA5202794A4A30AAB0A254 /* test_rna-transcription */;
+			targetProxy = 8891094403374D019755E724 /* PBXContainerItemProxy */;
+		};
+		AE5A644195D3438CAF9D3256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE03D17DACBD488DA847E856 /* rna-transcription */;
+			targetProxy = 2862EC04ADD345DAB8D8813F /* PBXContainerItemProxy */;
+		};
+		E70BE8C6D5314A0994AB2ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE03D17DACBD488DA847E856 /* rna-transcription */;
+			targetProxy = 320577B0727F449D97EE0104 /* PBXContainerItemProxy */;
+		};
+		FE1EA68918FE4F1497B1E2AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 462F220488D6498BB440B29E /* ZERO_CHECK */;
+			targetProxy = 7888E46B376446B882C92F85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		090CE5FB365C4DA09E83F814 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/build";
+			};
+			name = MinSizeRel;
+		};
+		20A84DAC4F824B43BB8A26E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2E2B7196E12443C8BEDD157A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/build";
+			};
+			name = Debug;
+		};
+		2F2D0C15F03D4DB1ADD5FD61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_rna-transcription";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3863C36240B84CED9A8756A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6FBA0038797A487C99D47759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++2a' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "rna-transcription";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7AD1AB828CE745D18326B0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_rna-transcription";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7EB719520AE64302BDB4D278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		871A8F6DACB546C984D8CFAA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		94F9A52D1D36439AB63E8950 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_rna-transcription";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9527F72E83E64D47846962E4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9E985085074E4983A917B39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++2a' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "rna-transcription";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A5DC9FB99FE14F4F9F85D231 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++2a' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "rna-transcription";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AF56BA8731C44523A6AD6DF5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		B4D9AC924F7646AB9EDF9FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/build";
+			};
+			name = Release;
+		};
+		B819694DB06244189A13F096 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++2a' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "rna-transcription";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CC2FBC3E9D514761A0C72681 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D0145C3A57DE4196BFDF59BD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D1D112AA260C4D36B68218FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FD2D531A6AC042B491134B0F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_rna-transcription";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3763A9C895284C1E93756D14 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D112AA260C4D36B68218FE /* Debug */,
+				3863C36240B84CED9A8756A2 /* Release */,
+				CC2FBC3E9D514761A0C72681 /* MinSizeRel */,
+				871A8F6DACB546C984D8CFAA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB6097E18A1B442998A8CAAB /* Build configuration list for PBXAggregateTarget "test_rna-transcription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2D0C15F03D4DB1ADD5FD61 /* Debug */,
+				7AD1AB828CE745D18326B0C1 /* Release */,
+				94F9A52D1D36439AB63E8950 /* MinSizeRel */,
+				FD2D531A6AC042B491134B0F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8D8D8E2745A46CFB9B524DF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A84DAC4F824B43BB8A26E4 /* Debug */,
+				7EB719520AE64302BDB4D278 /* Release */,
+				D0145C3A57DE4196BFDF59BD /* MinSizeRel */,
+				9527F72E83E64D47846962E4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D5C46461DF084823967DE469 /* Build configuration list for PBXNativeTarget "rna-transcription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E985085074E4983A917B39B /* Debug */,
+				6FBA0038797A487C99D47759 /* Release */,
+				B819694DB06244189A13F096 /* MinSizeRel */,
+				A5DC9FB99FE14F4F9F85D231 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE36B337C434408B846FEB79 /* Build configuration list for PBXProject "rna-transcription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2B7196E12443C8BEDD157A /* Debug */,
+				B4D9AC924F7646AB9EDF9FBC /* Release */,
+				090CE5FB365C4DA09E83F814 /* MinSizeRel */,
+				AF56BA8731C44523A6AD6DF5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E3A9E0A38A94550B459C552 /* Project object */;
+}

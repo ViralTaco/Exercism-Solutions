@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		30626478911044C3A20ECA69 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9315AF7904F34FED9E82F40A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C842B3F15E405BA5855AD90E /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		5508703927E74F0BB15DA5C8 /* test_raindrops */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6DA5FC011A794792B7F633F4 /* Build configuration list for PBXAggregateTarget "test_raindrops" */;
+			buildPhases = (
+				E96300B4217E8ECF906AC78E /* Generate CMakeFiles/test_raindrops */,
+			);
+			dependencies = (
+				6CE3DECCCF1848C4A0EC6BF2 /* PBXTargetDependency */,
+				6AEC4301616943F2BF0DD92B /* PBXTargetDependency */,
+			);
+			name = test_raindrops;
+			productName = test_raindrops;
+		};
+		C0312F6AB0C8496D882F0C6C /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3F835218B19B4440AFAD0D12 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				FA2F37D89828B1DAF449879A /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				953E4B763A304625AFA24C77 /* PBXTargetDependency */,
+				1FCF7B3048D94FEEBC8BD02B /* PBXTargetDependency */,
+				1D3073DA931F44B5ADF16155 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0E40137FC5C741CFB24BEB5D /* /Users/viraltaco/Exercism/cpp/raindrops/raindrops.h */ = {isa = PBXBuildFile; fileRef = 2FF3CEE34FE449BB808FCE9D /* /Users/viraltaco/Exercism/cpp/raindrops/raindrops.h */; };
+		367E1347E2644DD1B9F16878 /* /Users/viraltaco/Exercism/cpp/raindrops/raindrops.cpp */ = {isa = PBXBuildFile; fileRef = A1AAEBA7CF8940D9A7986BC0 /* /Users/viraltaco/Exercism/cpp/raindrops/raindrops.cpp */; };
+		6CF6FD3F6F924EC79D5220F9 /* /Users/viraltaco/Exercism/cpp/raindrops/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 74A33DAB7E374D81B78D5B4C /* /Users/viraltaco/Exercism/cpp/raindrops/CMakeLists.txt */; };
+		862075AC07EC43DB8C8216BD /* /Users/viraltaco/Exercism/cpp/raindrops/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = 14F43ADBD1EE40B3854F1392 /* /Users/viraltaco/Exercism/cpp/raindrops/test/tests-main.cpp */; };
+		8924803ABB384252A1953CB7 /* /Users/viraltaco/Exercism/cpp/raindrops/raindrops_test.cpp */ = {isa = PBXBuildFile; fileRef = 799227B44B4D43F28D8163E1 /* /Users/viraltaco/Exercism/cpp/raindrops/raindrops_test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2B34C023047C46F489B0F9DB /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		3047BAA9E4B6442E906B118E /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D4D1BBF6426C46E297EBCBEC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E40FFAA2F2AB40B588BC3B2E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		148C4D92EEEC4EAF8F122A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423F97E2531B4DE3A7F8F398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30626478911044C3A20ECA69;
+			remoteInfo = ZERO_CHECK;
+		};
+		1D82B8DC304C46DCBFF20123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423F97E2531B4DE3A7F8F398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB5BAF81E24410CB5479204;
+			remoteInfo = raindrops;
+		};
+		6592F5D3205F486FA1DB2A7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423F97E2531B4DE3A7F8F398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB5BAF81E24410CB5479204;
+			remoteInfo = raindrops;
+		};
+		7FEB6BA3BAA54F878FFD8C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423F97E2531B4DE3A7F8F398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5508703927E74F0BB15DA5C8;
+			remoteInfo = test_raindrops;
+		};
+		84050F41426F4449AB5F8333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423F97E2531B4DE3A7F8F398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30626478911044C3A20ECA69;
+			remoteInfo = ZERO_CHECK;
+		};
+		DFFC286C66574DE1965DE1F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423F97E2531B4DE3A7F8F398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30626478911044C3A20ECA69;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14F43ADBD1EE40B3854F1392 /* /Users/viraltaco/Exercism/cpp/raindrops/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+		2FF3CEE34FE449BB808FCE9D /* /Users/viraltaco/Exercism/cpp/raindrops/raindrops.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = raindrops.h; path = raindrops.h; sourceTree = SOURCE_ROOT; };
+		74A33DAB7E374D81B78D5B4C /* /Users/viraltaco/Exercism/cpp/raindrops/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		799227B44B4D43F28D8163E1 /* /Users/viraltaco/Exercism/cpp/raindrops/raindrops_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = raindrops_test.cpp; path = raindrops_test.cpp; sourceTree = SOURCE_ROOT; };
+		7E74F93EBEF04973BD03931B /* /Users/viraltaco/Exercism/cpp/raindrops/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A1AAEBA7CF8940D9A7986BC0 /* /Users/viraltaco/Exercism/cpp/raindrops/raindrops.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = raindrops.cpp; path = raindrops.cpp; sourceTree = SOURCE_ROOT; };
+		AFFE9748C38D47729FC801F1 /* /Users/viraltaco/Exercism/cpp/raindrops/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DADC8314B9DF4B50A0ED3A59 /* raindrops */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = raindrops; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D79DC7D3EE924F9CB1BD3A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037D073493794CDCB81A0D08 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9D7B08CB0EB34B7A87161218 /* CMake Rules */,
+				AFFE9748C38D47729FC801F1 /* /Users/viraltaco/Exercism/cpp/raindrops/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		0672F1B5B0764242BAF2B6DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADC8314B9DF4B50A0ED3A59 /* raindrops */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62D8CBBDF0C4470EA072CFB3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1AAEBA7CF8940D9A7986BC0 /* /Users/viraltaco/Exercism/cpp/raindrops/raindrops.cpp */,
+				799227B44B4D43F28D8163E1 /* /Users/viraltaco/Exercism/cpp/raindrops/raindrops_test.cpp */,
+				14F43ADBD1EE40B3854F1392 /* /Users/viraltaco/Exercism/cpp/raindrops/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		85967BCD4F8C4EB799E19571 /* raindrops */ = {
+			isa = PBXGroup;
+			children = (
+				62D8CBBDF0C4470EA072CFB3 /* Source Files */,
+				AEB608DF371040A78EEE8AE5 /* Header Files */,
+				74A33DAB7E374D81B78D5B4C /* /Users/viraltaco/Exercism/cpp/raindrops/CMakeLists.txt */,
+			);
+			name = raindrops;
+			sourceTree = "<group>";
+		};
+		86781472F2CB435AA63AB848 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9D7B08CB0EB34B7A87161218 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AEB608DF371040A78EEE8AE5 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FF3CEE34FE449BB808FCE9D /* /Users/viraltaco/Exercism/cpp/raindrops/raindrops.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		C76D3A1B1D114054A7501E8F = {
+			isa = PBXGroup;
+			children = (
+				E719EA3704864137BD6648D7 /* test_raindrops */,
+				85967BCD4F8C4EB799E19571 /* raindrops */,
+				037D073493794CDCB81A0D08 /* ALL_BUILD */,
+				0672F1B5B0764242BAF2B6DC /* Products */,
+				E3C6A17A04044683895D3CBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E3C6A17A04044683895D3CBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E719EA3704864137BD6648D7 /* test_raindrops */ = {
+			isa = PBXGroup;
+			children = (
+				86781472F2CB435AA63AB848 /* CMake Rules */,
+				7E74F93EBEF04973BD03931B /* /Users/viraltaco/Exercism/cpp/raindrops/CMakeLists.txt */,
+			);
+			name = test_raindrops;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DB5BAF81E24410CB5479204 /* raindrops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669AF954E5B54FFBA7628934 /* Build configuration list for PBXNativeTarget "raindrops" */;
+			buildPhases = (
+				426847A97ECF43D99649BEFE /* Sources */,
+				D79DC7D3EE924F9CB1BD3A29 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA1E3C4350C4906B953B701 /* PBXTargetDependency */,
+			);
+			name = raindrops;
+			productName = raindrops;
+			productReference = DADC8314B9DF4B50A0ED3A59 /* raindrops */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		423F97E2531B4DE3A7F8F398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = D96CF20932AF427A929EB28C /* Build configuration list for PBXProject "raindrops" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3047BAA9E4B6442E906B118E /* Debug */,
+				D4D1BBF6426C46E297EBCBEC /* Release */,
+				E40FFAA2F2AB40B588BC3B2E /* MinSizeRel */,
+				2B34C023047C46F489B0F9DB /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C76D3A1B1D114054A7501E8F;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				C0312F6AB0C8496D882F0C6C /* ALL_BUILD */,
+				30626478911044C3A20ECA69 /* ZERO_CHECK */,
+				1DB5BAF81E24410CB5479204 /* raindrops */,
+				5508703927E74F0BB15DA5C8 /* test_raindrops */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33A031FBE32538EAF5033684 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C842B3F15E405BA5855AD90E /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/viraltaco/Exercism/cpp/raindrops/build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Exercism/cpp/raindrops/build
+  make -f /Users/viraltaco/Exercism/cpp/raindrops/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Exercism/cpp/raindrops/build
+  make -f /Users/viraltaco/Exercism/cpp/raindrops/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Exercism/cpp/raindrops/build
+  make -f /Users/viraltaco/Exercism/cpp/raindrops/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Exercism/cpp/raindrops/build
+  make -f /Users/viraltaco/Exercism/cpp/raindrops/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		E96300B4217E8ECF906AC78E /* Generate CMakeFiles/test_raindrops */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+/Users/viraltaco/Exercism/cpp/raindrops/build/Debug/raindrops,/Users/viraltaco/Exercism/cpp/raindrops/build/MinSizeRel/raindrops,/Users/viraltaco/Exercism/cpp/raindrops/build/RelWithDebInfo/raindrops,/Users/viraltaco/Exercism/cpp/raindrops/build/Release/raindrops			);
+			name = "Generate CMakeFiles/test_raindrops";
+			outputPaths = (
+/Users/viraltaco/Exercism/cpp/raindrops/build/CMakeFiles/test_raindrops			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Exercism/cpp/raindrops/build
+  /Users/viraltaco/Exercism/cpp/raindrops/build/Debug/raindrops
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Exercism/cpp/raindrops/build
+  /Users/viraltaco/Exercism/cpp/raindrops/build/Release/raindrops
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Exercism/cpp/raindrops/build
+  /Users/viraltaco/Exercism/cpp/raindrops/build/MinSizeRel/raindrops
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Exercism/cpp/raindrops/build
+  /Users/viraltaco/Exercism/cpp/raindrops/build/RelWithDebInfo/raindrops
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		FA2F37D89828B1DAF449879A /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/viraltaco/Exercism/cpp/raindrops/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Exercism/cpp/raindrops/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Exercism/cpp/raindrops/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Exercism/cpp/raindrops/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Exercism/cpp/raindrops/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		426847A97ECF43D99649BEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367E1347E2644DD1B9F16878 /* /Users/viraltaco/Exercism/cpp/raindrops/raindrops.cpp */,
+				8924803ABB384252A1953CB7 /* /Users/viraltaco/Exercism/cpp/raindrops/raindrops_test.cpp */,
+				862075AC07EC43DB8C8216BD /* /Users/viraltaco/Exercism/cpp/raindrops/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D3073DA931F44B5ADF16155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB5BAF81E24410CB5479204 /* raindrops */;
+			targetProxy = 1D82B8DC304C46DCBFF20123 /* PBXContainerItemProxy */;
+		};
+		1FCF7B3048D94FEEBC8BD02B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5508703927E74F0BB15DA5C8 /* test_raindrops */;
+			targetProxy = 7FEB6BA3BAA54F878FFD8C8A /* PBXContainerItemProxy */;
+		};
+		6AEC4301616943F2BF0DD92B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB5BAF81E24410CB5479204 /* raindrops */;
+			targetProxy = 6592F5D3205F486FA1DB2A7D /* PBXContainerItemProxy */;
+		};
+		6CE3DECCCF1848C4A0EC6BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30626478911044C3A20ECA69 /* ZERO_CHECK */;
+			targetProxy = DFFC286C66574DE1965DE1F1 /* PBXContainerItemProxy */;
+		};
+		953E4B763A304625AFA24C77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30626478911044C3A20ECA69 /* ZERO_CHECK */;
+			targetProxy = 148C4D92EEEC4EAF8F122A32 /* PBXContainerItemProxy */;
+		};
+		ADA1E3C4350C4906B953B701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30626478911044C3A20ECA69 /* ZERO_CHECK */;
+			targetProxy = 84050F41426F4449AB5F8333 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A7CB860609644988E6DEA0F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++2a' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raindrops;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		23886CDB50E74339BE26944E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++2a' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raindrops;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		330BE80703DE4723A82D0E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++2a' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raindrops;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3E4950C9AE2E4A6AB65557FB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		5A069870BC58436682DE1597 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5D9489CB4EE74A96B4C4B729 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		714EA7053E7149E5A4DAA469 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		79FC418F7EE44654AB4C57C4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_raindrops;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		85CB7800D9814B2D923BC6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		86AE81A1CD8A40F5BBB784EC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build/build;
+			};
+			name = MinSizeRel;
+		};
+		889A6F88091340B6BF06DF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++2a' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raindrops;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A35E645807C54B99B02C154B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B733989FF7CA47D6A2FB3686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build/build;
+			};
+			name = Release;
+		};
+		BCC881A61BFD443590AC30F5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_raindrops;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BEDE52DAE187459B9058966C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CB8469E1BB7B4CC2B249871F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CDCD762B60F844A995D87192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D76320B7AE1343CCA880CFB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_raindrops;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E13D749D454748698A19A3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_raindrops;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FD446CEA43A44FC49D94564E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/viraltaco/Exercism/cpp/raindrops/build/build;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F835218B19B4440AFAD0D12 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CB7800D9814B2D923BC6C9 /* Debug */,
+				A35E645807C54B99B02C154B /* Release */,
+				5A069870BC58436682DE1597 /* MinSizeRel */,
+				714EA7053E7149E5A4DAA469 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		669AF954E5B54FFBA7628934 /* Build configuration list for PBXNativeTarget "raindrops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889A6F88091340B6BF06DF47 /* Debug */,
+				330BE80703DE4723A82D0E83 /* Release */,
+				23886CDB50E74339BE26944E /* MinSizeRel */,
+				1A7CB860609644988E6DEA0F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6DA5FC011A794792B7F633F4 /* Build configuration list for PBXAggregateTarget "test_raindrops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13D749D454748698A19A3CF /* Debug */,
+				D76320B7AE1343CCA880CFB3 /* Release */,
+				79FC418F7EE44654AB4C57C4 /* MinSizeRel */,
+				BCC881A61BFD443590AC30F5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9315AF7904F34FED9E82F40A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDE52DAE187459B9058966C /* Debug */,
+				CDCD762B60F844A995D87192 /* Release */,
+				5D9489CB4EE74A96B4C4B729 /* MinSizeRel */,
+				CB8469E1BB7B4CC2B249871F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D96CF20932AF427A929EB28C /* Build configuration list for PBXProject "raindrops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD446CEA43A44FC49D94564E /* Debug */,
+				B733989FF7CA47D6A2FB3686 /* Release */,
+				86AE81A1CD8A40F5BBB784EC /* MinSizeRel */,
+				3E4950C9AE2E4A6AB65557FB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 423F97E2531B4DE3A7F8F398 /* Project object */;
+}

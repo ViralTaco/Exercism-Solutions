@@ -1,0 +1,11 @@
+Target dependency graph (4 targets)
+ZERO_CHECK in isogram
+isogram in isogram, depends on:
+ZERO_CHECK in isogram (explicit)
+test_isogram in isogram, depends on:
+ZERO_CHECK in isogram (explicit)
+isogram in isogram (explicit)
+ALL_BUILD in isogram, depends on:
+test_isogram in isogram (explicit)
+ZERO_CHECK in isogram (explicit)
+isogram in isogram (explicit)

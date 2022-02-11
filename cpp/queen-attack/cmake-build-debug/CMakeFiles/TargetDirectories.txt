@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/queen-attack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/queen-attack/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/queen-attack/cmake-build-debug/CMakeFiles/test_queen-attack.dir
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/queen-attack/cmake-build-debug/CMakeFiles/queen-attack.dir

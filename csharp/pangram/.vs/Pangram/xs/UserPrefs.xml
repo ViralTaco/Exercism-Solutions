@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{EBD69E9D-F08F-4A32-B2C0-D20EC8427BD4}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Pangram.cs" Line="7" Column="45" />
+      <File FileName="PangramTest.cs" />
+      <File FileName="README.md" Line="1" Column="3" />
+      <File FileName="../../../../../../../usr/local/share/dotnet/sdk/5.0.203/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.EolTargetFrameworks.targets" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Pangram" expanded="True">
+            <Node name="Pangram" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Pangram.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Pangram PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

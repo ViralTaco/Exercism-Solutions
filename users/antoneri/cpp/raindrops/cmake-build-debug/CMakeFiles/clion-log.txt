@@ -1,0 +1,4 @@
+/usr/local/Cellar/cmake/3.20.4/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/local/Cellar/make/4.3/bin/gmake -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/11.1.0_1/bin/x86_64-apple-darwin20-gcc-11 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/llvm/12.0.0_1/bin/clang-12 -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/viraltaco/Desktop/Projects/Exercism/users/antoneri/cpp/raindrops
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/viraltaco/Desktop/Projects/Exercism/users/antoneri/cpp/raindrops/cmake-build-debug

@@ -1,0 +1,12 @@
+
+¡
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•º£•ùÿÿÿÿ8Žê¦ÖÄ.
+K
+java:S1144"+Remove this unused private "Bucket" method.(•º£•ùÿÿÿÿ8»í¥ÖÄ.
+F
+java:S1172"&Remove these unused method parameters.(•º£•ùÿÿÿÿ8Žê¦ÖÄ.
+m	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•º£•ùÿÿÿÿ8»í¥ÖÄ.
+¡
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ç§±ßþÿÿÿÿ8»í¥ÖÄ.
+B
+java:S1068"'Remove this unused "map" private field.(Ž³È´8šÖªÖÄ.

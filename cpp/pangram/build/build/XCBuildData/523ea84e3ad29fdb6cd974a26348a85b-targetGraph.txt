@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in pangram
+pangram in pangram, depends on:
+ZERO_CHECK in pangram (explicit)
+test_pangram in pangram, depends on:
+ZERO_CHECK in pangram (explicit)
+pangram in pangram (explicit)

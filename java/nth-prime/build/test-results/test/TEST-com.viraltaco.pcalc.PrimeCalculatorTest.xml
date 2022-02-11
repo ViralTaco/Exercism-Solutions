@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.viraltaco.pcalc.PrimeCalculatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-07-26T23:56:48" hostname="MacBook-Pro.local" time="0.056">
+  <properties/>
+  <testcase name="testUndefinedPrime" classname="com.viraltaco.pcalc.PrimeCalculatorTest" time="0.003"/>
+  <testcase name="testSixthPrime" classname="com.viraltaco.pcalc.PrimeCalculatorTest" time="0.043"/>
+  <testcase name="testFirstPrime" classname="com.viraltaco.pcalc.PrimeCalculatorTest" time="0.0"/>
+  <testcase name="testSecondPrime" classname="com.viraltaco.pcalc.PrimeCalculatorTest" time="0.0"/>
+  <testcase name="testBigPrime" classname="com.viraltaco.pcalc.PrimeCalculatorTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/projects/Exercism/cpp/secret-handshake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/secret-handshake/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/secret-handshake/cmake-build-debug/CMakeFiles/test_secret-handshake.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/secret-handshake/cmake-build-debug/CMakeFiles/secret-handshake.dir

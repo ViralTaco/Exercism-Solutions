@@ -1,0 +1,11 @@
+Target dependency graph (4 targets)
+ZERO_CHECK in acronym
+acronym in acronym, depends on:
+ZERO_CHECK in acronym (explicit)
+test_acronym in acronym, depends on:
+acronym in acronym (explicit)
+ZERO_CHECK in acronym (explicit)
+ALL_BUILD in acronym, depends on:
+acronym in acronym (explicit)
+ZERO_CHECK in acronym (explicit)
+test_acronym in acronym (explicit)

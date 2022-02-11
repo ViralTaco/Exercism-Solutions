@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSharedSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Default-LLVM 12" TOOLCHAIN_NAME="LLVM 12" ENABLED="true" />
+      <configuration PROFILE_NAME="Debug-System" CONFIG_NAME="Debug" TOOLCHAIN_NAME="System" ENABLED="true" />
+    </configurations>
+  </component>
+</project>

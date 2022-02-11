@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/viraltaco/Desktop/projects/Exercism/cpp/atbash-cipher/atbash_cipher.cpp
+atbash_cipher.h
+/Users/viraltaco/Desktop/projects/Exercism/cpp/atbash-cipher/atbash_cipher.h
+array
+-
+
+/Users/viraltaco/Desktop/projects/Exercism/cpp/atbash-cipher/atbash_cipher.h
+string_view
+-
+string
+-
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSharedSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Default" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=/usr/local/Cellar/vcpkg/2021.05.12/libexec/scripts/buildsystems/vcpkg.cmake" GENERATION_DIR="cmake-build-debug" ENABLED="true" />
+      <configuration PROFILE_NAME="Release-LLVM 12" CONFIG_NAME="Release" TOOLCHAIN_NAME="LLVM 12" ENABLED="true" />
+    </configurations>
+  </component>
+</project>

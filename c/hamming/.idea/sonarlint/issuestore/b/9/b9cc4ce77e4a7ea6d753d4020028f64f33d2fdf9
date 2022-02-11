@@ -1,0 +1,11 @@
+
+N	cpp:S5028ò"8Replace this macro by "const", "constexpr" or an "enum".(í¥‰è
+S	cpp:S5028ö"8Replace this macro by "const", "constexpr" or an "enum".(Ò›êˆúÿÿÿÿ
+qcpp:PPIncludeNotAtTop"JMove all #include directives at the very top of the file, before any code.(­¦¦¾øÿÿÿÿ
+Y	cpp:S5825Æ"CDefine the type with "typedef" or "using" instead of using a macro.(¥‹Ïø
+jcpp:EnumPartialInitialization‚"@Initialize none, only the first, or all enumeration definitions.(Ì——œ
+jcpp:EnumPartialInitialization "@Initialize none, only the first, or all enumeration definitions.(Ì——œ
+Y	cpp:S5825ğ"CDefine the type with "typedef" or "using" instead of using a macro.(âï¹É
+^	cpp:S5825ô"CDefine the type with "typedef" or "using" instead of using a macro.(˜½©§ÿÿÿÿÿ
+<	cpp:S5421Ø"!Global variables should be const.(çÑê¯ûÿÿÿÿ
+Y	cpp:S5825®"CDefine the type with "typedef" or "using" instead of using a macro.(¾²ô¬

@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/projects/Exercism/cpp/acronym/cmake-build-release-llvm-12/CMakeFiles/rebuild_cache.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/acronym/cmake-build-release-llvm-12/CMakeFiles/edit_cache.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/acronym/cmake-build-release-llvm-12/CMakeFiles/test_acronym.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/acronym/cmake-build-release-llvm-12/CMakeFiles/acronym.dir

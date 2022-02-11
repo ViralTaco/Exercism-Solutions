@@ -1,0 +1,5 @@
+
+l	cpp:S4998"RReplace this use of "unique_ptr" by a raw pointer or a reference (possibly const).(½ºî•ûÿÿÿÿ
+fcpp:S127"MCalculate the stop condition value outside the loop and set it to a variable.(÷¹“ÿÿÿÿÿ
+P	cpp:S5950"6Use "std::make_unique" to construct "std::unique_ptr".(ıš™ùÿÿÿÿÿ
+g	cpp:S4998X"RReplace this use of "unique_ptr" by a raw pointer or a reference (possibly const).(óøŠ½

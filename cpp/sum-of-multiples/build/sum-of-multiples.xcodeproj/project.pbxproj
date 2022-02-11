@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0B4A22EA0ACD49C8914C25F2 /* test_sum-of-multiples */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8F998230DAA141569514179D /* Build configuration list for PBXAggregateTarget "test_sum-of-multiples" */;
+			buildPhases = (
+				890F1B43D744C69C312C7D8B /* Generate CMakeFiles/test_sum-of-multiples */,
+			);
+			dependencies = (
+				131CBC7767CF41A1B5AE1690 /* PBXTargetDependency */,
+				0A9CB335FD6243BCB61FFA03 /* PBXTargetDependency */,
+			);
+			name = "test_sum-of-multiples";
+			productName = "test_sum-of-multiples";
+		};
+		CC0A0D6F45F848DDAF10AB63 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C21B255BEFA84BA68D3444E2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				0CD365DBAA2AF7B1A52603E4 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F98B33CECCCA46C68F7DD714 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2EF75D2E28AA462281F15004 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8CF4887E0A60DB6D025AFFC0 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				E0072E55F1894B5581D2FCFD /* PBXTargetDependency */,
+				AE28F452F0524AD7A6BACBE7 /* PBXTargetDependency */,
+				3D8C3F60F7F14F60A8FBBC1E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00E4EA8CF7FD435A8A846D89 /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/sum_of_multiples.cpp */ = {isa = PBXBuildFile; fileRef = 0124817B9F37412CBCF5CDAA /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/sum_of_multiples.cpp */; };
+		1B95C1A68ED04E6893DDE869 /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7F3DF11AC1F044B285DE9E74 /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/CMakeLists.txt */; };
+		2F438910766E4F45B10F732D /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/sum_of_multiples.h */ = {isa = PBXBuildFile; fileRef = 34C8547F080549B9B436E84E /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/sum_of_multiples.h */; };
+		30261F8DF7F2488682850431 /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = 134A47E6E68B46FDB7D4AD6F /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/test/tests-main.cpp */; };
+		C39777B644B844B4A1DC959E /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/sum_of_multiples_test.cpp */ = {isa = PBXBuildFile; fileRef = 668767B237F84A79A950ECDC /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/sum_of_multiples_test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1ED0E6277DEE403FAF1EB38C /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		940A802DBCED431FB1DE350F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		9D4E7168D5414AE69BFD0BFA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		AB38A9096CF345C9951675FD /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3230E148FA33408883C83817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC23CB0FCBB4B5886B874DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0A0D6F45F848DDAF10AB63;
+			remoteInfo = ZERO_CHECK;
+		};
+		3D1F378EB21148D6B95AD7F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC23CB0FCBB4B5886B874DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E322A3CD966D4402921C203D;
+			remoteInfo = "sum-of-multiples";
+		};
+		43FB47769D0840DB82AAA9C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC23CB0FCBB4B5886B874DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E322A3CD966D4402921C203D;
+			remoteInfo = "sum-of-multiples";
+		};
+		5B1BE04DD5164583B7C105D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC23CB0FCBB4B5886B874DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0A0D6F45F848DDAF10AB63;
+			remoteInfo = ZERO_CHECK;
+		};
+		9CF1561480AE4D42AFF1F035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC23CB0FCBB4B5886B874DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0A0D6F45F848DDAF10AB63;
+			remoteInfo = ZERO_CHECK;
+		};
+		B00F02F8106D4D95A862249C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC23CB0FCBB4B5886B874DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B4A22EA0ACD49C8914C25F2;
+			remoteInfo = "test_sum-of-multiples";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0124817B9F37412CBCF5CDAA /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/sum_of_multiples.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sum_of_multiples.cpp; path = sum_of_multiples.cpp; sourceTree = SOURCE_ROOT; };
+		134A47E6E68B46FDB7D4AD6F /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+		2C944EC968804CCD94522D49 /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		34C8547F080549B9B436E84E /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/sum_of_multiples.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sum_of_multiples.h; path = sum_of_multiples.h; sourceTree = SOURCE_ROOT; };
+		639707B88D2346CBB85CB34E /* sum-of-multiples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "sum-of-multiples"; sourceTree = BUILT_PRODUCTS_DIR; };
+		668767B237F84A79A950ECDC /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/sum_of_multiples_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sum_of_multiples_test.cpp; path = sum_of_multiples_test.cpp; sourceTree = SOURCE_ROOT; };
+		7F3DF11AC1F044B285DE9E74 /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A5126BD96A614833A3B29C23 /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5104F26A65A0468498602924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040306443F9140B7AB147E65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07E43C4FEC9A4845BCF3330E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		32101BFC17974621B4478087 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				34C8547F080549B9B436E84E /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/sum_of_multiples.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		33ED991B1A8A4247AD85702C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				07E43C4FEC9A4845BCF3330E /* CMake Rules */,
+				A5126BD96A614833A3B29C23 /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		66C5963FF62D4F1FBFDFD8B7 /* test_sum-of-multiples */ = {
+			isa = PBXGroup;
+			children = (
+				679110A245AC4ACC838F6496 /* CMake Rules */,
+				2C944EC968804CCD94522D49 /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/CMakeLists.txt */,
+			);
+			name = "test_sum-of-multiples";
+			sourceTree = "<group>";
+		};
+		679110A245AC4ACC838F6496 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7DA803E3B9834E4984F19E45 = {
+			isa = PBXGroup;
+			children = (
+				66C5963FF62D4F1FBFDFD8B7 /* test_sum-of-multiples */,
+				9D83911D980F43E282CE196E /* sum-of-multiples */,
+				33ED991B1A8A4247AD85702C /* ALL_BUILD */,
+				B1E556A101CA4BCAB0CD752C /* Products */,
+				040306443F9140B7AB147E65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D83911D980F43E282CE196E /* sum-of-multiples */ = {
+			isa = PBXGroup;
+			children = (
+				EEF1DAB7F6254C84895A9983 /* Source Files */,
+				32101BFC17974621B4478087 /* Header Files */,
+				7F3DF11AC1F044B285DE9E74 /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/CMakeLists.txt */,
+			);
+			name = "sum-of-multiples";
+			sourceTree = "<group>";
+		};
+		B1E556A101CA4BCAB0CD752C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639707B88D2346CBB85CB34E /* sum-of-multiples */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEF1DAB7F6254C84895A9983 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0124817B9F37412CBCF5CDAA /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/sum_of_multiples.cpp */,
+				668767B237F84A79A950ECDC /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/sum_of_multiples_test.cpp */,
+				134A47E6E68B46FDB7D4AD6F /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E322A3CD966D4402921C203D /* sum-of-multiples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20D5300670745E09B90D266 /* Build configuration list for PBXNativeTarget "sum-of-multiples" */;
+			buildPhases = (
+				46CFC46B8078426881F0D192 /* Sources */,
+				5104F26A65A0468498602924 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5921B6F0B1FB4D1F88D52A61 /* PBXTargetDependency */,
+			);
+			name = "sum-of-multiples";
+			productName = "sum-of-multiples";
+			productReference = 639707B88D2346CBB85CB34E /* sum-of-multiples */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CC23CB0FCBB4B5886B874DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 147A6D4F455D41F4A51247A1 /* Build configuration list for PBXProject "sum-of-multiples" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				1ED0E6277DEE403FAF1EB38C /* Debug */,
+				9D4E7168D5414AE69BFD0BFA /* Release */,
+				940A802DBCED431FB1DE350F /* MinSizeRel */,
+				AB38A9096CF345C9951675FD /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7DA803E3B9834E4984F19E45;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				F98B33CECCCA46C68F7DD714 /* ALL_BUILD */,
+				CC0A0D6F45F848DDAF10AB63 /* ZERO_CHECK */,
+				E322A3CD966D4402921C203D /* sum-of-multiples */,
+				0B4A22EA0ACD49C8914C25F2 /* test_sum-of-multiples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CD365DBAA2AF7B1A52603E4 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Exercism/cpp/sum-of-multiples/build
+  make -f /Users/viraltaco/Exercism/cpp/sum-of-multiples/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Exercism/cpp/sum-of-multiples/build
+  make -f /Users/viraltaco/Exercism/cpp/sum-of-multiples/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Exercism/cpp/sum-of-multiples/build
+  make -f /Users/viraltaco/Exercism/cpp/sum-of-multiples/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Exercism/cpp/sum-of-multiples/build
+  make -f /Users/viraltaco/Exercism/cpp/sum-of-multiples/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		85F173AF8FDA2352B6C2AE2E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		890F1B43D744C69C312C7D8B /* Generate CMakeFiles/test_sum-of-multiples */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/Debug/sum-of-multiples","/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/MinSizeRel/sum-of-multiples","/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/RelWithDebInfo/sum-of-multiples","/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/Release/sum-of-multiples"			);
+			name = "Generate CMakeFiles/test_sum-of-multiples";
+			outputPaths = (
+"/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/CMakeFiles/test_sum-of-multiples"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Exercism/cpp/sum-of-multiples/build
+  /Users/viraltaco/Exercism/cpp/sum-of-multiples/build/Debug/sum-of-multiples
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Exercism/cpp/sum-of-multiples/build
+  /Users/viraltaco/Exercism/cpp/sum-of-multiples/build/Release/sum-of-multiples
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Exercism/cpp/sum-of-multiples/build
+  /Users/viraltaco/Exercism/cpp/sum-of-multiples/build/MinSizeRel/sum-of-multiples
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Exercism/cpp/sum-of-multiples/build
+  /Users/viraltaco/Exercism/cpp/sum-of-multiples/build/RelWithDebInfo/sum-of-multiples
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8CF4887E0A60DB6D025AFFC0 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Exercism/cpp/sum-of-multiples/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Exercism/cpp/sum-of-multiples/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Exercism/cpp/sum-of-multiples/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Exercism/cpp/sum-of-multiples/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46CFC46B8078426881F0D192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E4EA8CF7FD435A8A846D89 /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/sum_of_multiples.cpp */,
+				C39777B644B844B4A1DC959E /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/sum_of_multiples_test.cpp */,
+				30261F8DF7F2488682850431 /* /Users/viraltaco/Exercism/cpp/sum-of-multiples/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A9CB335FD6243BCB61FFA03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E322A3CD966D4402921C203D /* sum-of-multiples */;
+			targetProxy = 43FB47769D0840DB82AAA9C3 /* PBXContainerItemProxy */;
+		};
+		131CBC7767CF41A1B5AE1690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0A0D6F45F848DDAF10AB63 /* ZERO_CHECK */;
+			targetProxy = 3230E148FA33408883C83817 /* PBXContainerItemProxy */;
+		};
+		3D8C3F60F7F14F60A8FBBC1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E322A3CD966D4402921C203D /* sum-of-multiples */;
+			targetProxy = 3D1F378EB21148D6B95AD7F3 /* PBXContainerItemProxy */;
+		};
+		5921B6F0B1FB4D1F88D52A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0A0D6F45F848DDAF10AB63 /* ZERO_CHECK */;
+			targetProxy = 5B1BE04DD5164583B7C105D8 /* PBXContainerItemProxy */;
+		};
+		AE28F452F0524AD7A6BACBE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0A0D6F45F848DDAF10AB63 /* ZERO_CHECK */;
+			targetProxy = 9CF1561480AE4D42AFF1F035 /* PBXContainerItemProxy */;
+		};
+		E0072E55F1894B5581D2FCFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B4A22EA0ACD49C8914C25F2 /* test_sum-of-multiples */;
+			targetProxy = B00F02F8106D4D95A862249C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02178D2232CF4295A1487F51 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		14A8197A9DD046DCAC6893E2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_sum-of-multiples";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1AD553331B244CE0ADEE3FEE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		329978680DE74A60BAC2E28A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_sum-of-multiples";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		38709E0614304D9598D99970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/build";
+			};
+			name = Release;
+		};
+		3BB4FF29EBF246288C35E410 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		43381248EC6D4402BC67A92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/build";
+			};
+			name = Debug;
+		};
+		4FA6E3A99817471DB19C2C1D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		593DB93F474A43A5A3DD1ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6B3EF59ED0424FF08DC648E6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sum-of-multiples";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7C69DA52C1184D5AB2B8A099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sum-of-multiples";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		83FE5CA45F5C4119A0AD3560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_sum-of-multiples";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		91087A9C6C22429888C65F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sum-of-multiples";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B40BBD6DDCAC4C9DB9B0151C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B4739CF03828481B879E908C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C342C845A555415AB17C5204 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_sum-of-multiples";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CAB4563B8E864A4AA2F1E5E9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		CAE6F7374E554003AA285BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EF5FF6E51E0644B5A8B5039A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sum-of-multiples";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F9615872FC19437BA1443E0B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/sum-of-multiples/build/build";
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147A6D4F455D41F4A51247A1 /* Build configuration list for PBXProject "sum-of-multiples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43381248EC6D4402BC67A92B /* Debug */,
+				38709E0614304D9598D99970 /* Release */,
+				F9615872FC19437BA1443E0B /* MinSizeRel */,
+				CAB4563B8E864A4AA2F1E5E9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2EF75D2E28AA462281F15004 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE6F7374E554003AA285BE0 /* Debug */,
+				B4739CF03828481B879E908C /* Release */,
+				4FA6E3A99817471DB19C2C1D /* MinSizeRel */,
+				02178D2232CF4295A1487F51 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8F998230DAA141569514179D /* Build configuration list for PBXAggregateTarget "test_sum-of-multiples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FE5CA45F5C4119A0AD3560 /* Debug */,
+				329978680DE74A60BAC2E28A /* Release */,
+				C342C845A555415AB17C5204 /* MinSizeRel */,
+				14A8197A9DD046DCAC6893E2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C20D5300670745E09B90D266 /* Build configuration list for PBXNativeTarget "sum-of-multiples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C69DA52C1184D5AB2B8A099 /* Debug */,
+				91087A9C6C22429888C65F13 /* Release */,
+				6B3EF59ED0424FF08DC648E6 /* MinSizeRel */,
+				EF5FF6E51E0644B5A8B5039A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C21B255BEFA84BA68D3444E2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593DB93F474A43A5A3DD1ED4 /* Debug */,
+				B40BBD6DDCAC4C9DB9B0151C /* Release */,
+				3BB4FF29EBF246288C35E410 /* MinSizeRel */,
+				1AD553331B244CE0ADEE3FEE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CC23CB0FCBB4B5886B874DA /* Project object */;
+}

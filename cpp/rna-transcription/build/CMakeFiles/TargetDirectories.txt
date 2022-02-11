@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/CMakeFiles/test_rna-transcription.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/CMakeFiles/rna-transcription.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/rna-transcription/build/CMakeFiles/ZERO_CHECK.dir

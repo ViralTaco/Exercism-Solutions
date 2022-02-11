@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92f5013c-ff2c-4f10-9377-6c22fdfa7f82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../swift/poker/Sources/Poker/Cards.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/XCBuildData/50d97deaa8ed97df3b8cded9ec3fb3de-desc.xcbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/XCBuildData/50d97deaa8ed97df3b8cded9ec3fb3de-manifest.xcbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/XCBuildData/BuildDescriptionCacheIndex-4ce9833715606a9afb62aae14941084d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/3.15.4/CompilerIdCXX/XCBuildData/build.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeDebug" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeDebug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeMinSizeRel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeRelWithDebInfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeRelease" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.makeRelease" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ReRunCMake.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ReRunCMake.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/XCODE_DEPEND_HELPER.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/XCODE_DEPEND_HELPER.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.makeDebug" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.makeDebug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.makeMinSizeRel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.makeRelWithDebInfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.makeRelease" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.makeRelease" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/test_reverse-string_cmakeRulesBuildPhase.makeDebug" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/test_reverse-string_cmakeRulesBuildPhase.makeDebug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/test_reverse-string_cmakeRulesBuildPhase.makeMinSizeRel" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/test_reverse-string_cmakeRulesBuildPhase.makeMinSizeRel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/test_reverse-string_cmakeRulesBuildPhase.makeRelWithDebInfo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/test_reverse-string_cmakeRulesBuildPhase.makeRelWithDebInfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/test_reverse-string_cmakeRulesBuildPhase.makeRelease" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/CMakeScripts/test_reverse-string_cmakeRulesBuildPhase.makeRelease" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/Debug/reverse-string" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/Debug/reverse-string" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/ALL_BUILD.build/Script-388BFE62178546AC841419D6.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/ALL_BUILD.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/ALL_BUILD.build/dgph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/ZERO_CHECK.build/Script-BADEFD410A3D4E748DA315E0.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/ZERO_CHECK.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/ZERO_CHECK.build/dgph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/Objects-normal/x86_64/reverse-string.LinkFileList" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/Objects-normal/x86_64/reverse-string.LinkFileList" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/Objects-normal/x86_64/reverse-string_dependency_info.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/Objects-normal/x86_64/reverse-string_dependency_info.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/Objects-normal/x86_64/reverse_string.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/Objects-normal/x86_64/reverse_string.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/Objects-normal/x86_64/reverse_string_test.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/Objects-normal/x86_64/reverse_string_test.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/Objects-normal/x86_64/reverse_string_test.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/Objects-normal/x86_64/reverse_string_test.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/Objects-normal/x86_64/tests-main.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/Objects-normal/x86_64/tests-main.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/Objects-normal/x86_64/tests-main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/Objects-normal/x86_64/tests-main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/reverse-string.build/dgph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/test_reverse-string.build/Script-534BFA9C3E20409188630DE7.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/test_reverse-string.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Debug/test_reverse-string.build/dgph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Release/ALL_BUILD.build/dgph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Release/ZERO_CHECK.build/dgph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Release/reverse-string.build/dgph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.build/Release/test_reverse-string.build/dgph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.xcodeproj/project.xcworkspace/xcuserdata/viraltaco.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.xcodeproj/project.xcworkspace/xcuserdata/viraltaco.xcuserdatad/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/build/reverse-string.xcodeproj/xcuserdata/viraltaco.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cpp/reverse-string/reverse_string.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cpp/reverse-string/reverse_string.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/.README.md.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/.build.gradle.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/.exercism/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../anagram/.exercism/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/.gradle/buildOutputCleanup/.buildOutputCleanup.lock.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/.gradle/buildOutputCleanup/.outputFiles.bin.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../anagram/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/build/classes/java/main/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../anagram/build/classes/java/main/Anagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/build/classes/java/test/AnagramTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../anagram/build/classes/java/test/AnagramTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/build/reports/tests/test/.index.html.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/build/reports/tests/test/classes/.AnagramTest.html.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/build/reports/tests/test/css/.base-style.css.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/build/reports/tests/test/css/.style.css.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/build/reports/tests/test/packages/.default-package.html.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/build/test-results/test/TEST-AnagramTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../anagram/build/test-results/test/TEST-AnagramTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/build/test-results/test/binary/.output.bin.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/build/test-results/test/binary/.results.bin.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/src/main/java/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../anagram/src/main/java/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anagram/src/test/java/AnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../anagram/src/test/java/AnagramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python/acronym/.exercism/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python/acronym/.exercism/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python/acronym/acronym_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python/acronym/acronym_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python/hello-world/.exercism/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python/hello-world/.exercism/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python/hello-world/.hello_world.pyc.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python/hello-world/hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python/hello-world/hello_world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python/hello-world/hello_world_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python/hello-world/hello_world_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python/leap/.exercism/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python/leap/.exercism/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python/leap/leap.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python/leap/leap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python/leap/leap_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python/leap/leap_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python/two-fer/.exercism/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python/two-fer/.exercism/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python/two-fer/two_fer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python/two-fer/two_fer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python/two-fer/two_fer_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python/two-fer/two_fer_test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1WZtjLIB8Brafwy3HE8csLRu3dz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92f5013c-ff2c-4f10-9377-6c22fdfa7f82" name="Default Changelist" comment="" />
+      <created>1579369078621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579369078621</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="745" y="456" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579369102491">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="745" y="456" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1579369102491" />
+  </component>
+</project>

@@ -1,0 +1,4 @@
+"/Users/viraltaco/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/viraltaco/Desktop/Projects/Exercism/cpp/nucleotide-count
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/viraltaco/Desktop/Projects/Exercism/cpp/nucleotide-count/cmake-build-debug

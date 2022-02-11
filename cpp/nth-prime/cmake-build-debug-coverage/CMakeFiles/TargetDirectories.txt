@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/projects/Exercism/cpp/nth-prime/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/nth-prime/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/nth-prime/cmake-build-debug-coverage/CMakeFiles/test_nth-prime.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/nth-prime/cmake-build-debug-coverage/CMakeFiles/nth-prime.dir

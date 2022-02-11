@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.viraltaco.rot.RotationalCipherTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-07-25T19:17:53" hostname="MacBook-Pro.local" time="0.007">
+  <properties/>
+  <testcase name="rotateCapitalLetters" classname="com.viraltaco.rot.RotationalCipherTest" time="0.005"/>
+  <testcase name="rotateNumbers" classname="com.viraltaco.rot.RotationalCipherTest" time="0.0"/>
+  <testcase name="rotatePunctuation" classname="com.viraltaco.rot.RotationalCipherTest" time="0.0"/>
+  <testcase name="rotateAllLetters" classname="com.viraltaco.rot.RotationalCipherTest" time="0.0"/>
+  <testcase name="rotateSingleCharacterBy0" classname="com.viraltaco.rot.RotationalCipherTest" time="0.0"/>
+  <testcase name="rotateSingleCharacterBy1" classname="com.viraltaco.rot.RotationalCipherTest" time="0.0"/>
+  <testcase name="rotateSingleCharacterBy13" classname="com.viraltaco.rot.RotationalCipherTest" time="0.0"/>
+  <testcase name="rotateSingleCharacterBy26" classname="com.viraltaco.rot.RotationalCipherTest" time="0.0"/>
+  <testcase name="rotateSpaces" classname="com.viraltaco.rot.RotationalCipherTest" time="0.0"/>
+  <testcase name="rotateSingleCharacterWithWrapAround" classname="com.viraltaco.rot.RotationalCipherTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		00297358AED74A90A3338CF8 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3F5B3E24A7DC4816845DB0F4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8AD41278E177B4CBA2D37D52 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				2AAA84F5F2484A86ABE966E5 /* PBXTargetDependency */,
+				74F2C6AE3C8A458182F62911 /* PBXTargetDependency */,
+				24CA368C42BE478BA8B21EEE /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		26120494378F416EA04F7F6E /* test_reverse-string */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F4018CDFF8DE4E1D9F227E28 /* Build configuration list for PBXAggregateTarget "test_reverse-string" */;
+			buildPhases = (
+				B8449DCC746A01F779589DC6 /* Generate CMakeFiles/test_reverse-string */,
+			);
+			dependencies = (
+				EF51B4FBBE654272B649128A /* PBXTargetDependency */,
+				D3F1EFF2C94F4C85A086F121 /* PBXTargetDependency */,
+			);
+			name = "test_reverse-string";
+			productName = "test_reverse-string";
+		};
+		6E6130BFE08D44929C0F923F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 81383EB69B584214B5FE1085 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B414705C7C92D241EF929F24 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0BA66FE9E87743149C3FDA3B /* /Users/viraltaco/Exercism/cpp/reverse-string/reverse_string.cpp */ = {isa = PBXBuildFile; fileRef = A0E36F6C8B8F4AF296256A81 /* /Users/viraltaco/Exercism/cpp/reverse-string/reverse_string.cpp */; };
+		7C5936874C6046E58DAA0EB9 /* /Users/viraltaco/Exercism/cpp/reverse-string/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 63F22BFE5B6A41098CB2F36A /* /Users/viraltaco/Exercism/cpp/reverse-string/CMakeLists.txt */; };
+		92AE1B27146F4896B69BB6E4 /* /Users/viraltaco/Exercism/cpp/reverse-string/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = EC1917C85B7748F0BE5F0A20 /* /Users/viraltaco/Exercism/cpp/reverse-string/test/tests-main.cpp */; };
+		EF9160A208ED4ABF8183463D /* /Users/viraltaco/Exercism/cpp/reverse-string/reverse_string_test.cpp */ = {isa = PBXBuildFile; fileRef = 05DCA64E5A38469EB17D7D2B /* /Users/viraltaco/Exercism/cpp/reverse-string/reverse_string_test.cpp */; };
+		F60C9AB372AF442EB11EB548 /* /Users/viraltaco/Exercism/cpp/reverse-string/reverse_string.h */ = {isa = PBXBuildFile; fileRef = 8F258BA24C7B4CE9977FE473 /* /Users/viraltaco/Exercism/cpp/reverse-string/reverse_string.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1B1E43346C484232B6EFC950 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		871EBEFF8C11440D962DE03F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		9B80E973F6B945AFA2706FD5 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C07C5D23601843CDB7039D4D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3F5EF27459AA4689BB30F576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3368DC3BC1F24F9B98AAA55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50BC784BF1AB4923B3B80803;
+			remoteInfo = "reverse-string";
+		};
+		554B5A3EE7B447C28EA241DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3368DC3BC1F24F9B98AAA55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50BC784BF1AB4923B3B80803;
+			remoteInfo = "reverse-string";
+		};
+		576998BA172C4903A074F5CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3368DC3BC1F24F9B98AAA55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E6130BFE08D44929C0F923F;
+			remoteInfo = ZERO_CHECK;
+		};
+		8D354D654A8842419F3EFE86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3368DC3BC1F24F9B98AAA55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E6130BFE08D44929C0F923F;
+			remoteInfo = ZERO_CHECK;
+		};
+		92F3D6FB81384074B01A95AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3368DC3BC1F24F9B98AAA55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26120494378F416EA04F7F6E;
+			remoteInfo = "test_reverse-string";
+		};
+		C0832DF5F24948B282988774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3368DC3BC1F24F9B98AAA55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E6130BFE08D44929C0F923F;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05DCA64E5A38469EB17D7D2B /* /Users/viraltaco/Exercism/cpp/reverse-string/reverse_string_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reverse_string_test.cpp; path = reverse_string_test.cpp; sourceTree = SOURCE_ROOT; };
+		63F22BFE5B6A41098CB2F36A /* /Users/viraltaco/Exercism/cpp/reverse-string/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		651EEB5D991B4E4991D77A4F /* /Users/viraltaco/Exercism/cpp/reverse-string/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8F258BA24C7B4CE9977FE473 /* /Users/viraltaco/Exercism/cpp/reverse-string/reverse_string.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = reverse_string.h; path = reverse_string.h; sourceTree = SOURCE_ROOT; };
+		A0E36F6C8B8F4AF296256A81 /* /Users/viraltaco/Exercism/cpp/reverse-string/reverse_string.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reverse_string.cpp; path = reverse_string.cpp; sourceTree = SOURCE_ROOT; };
+		C5BC34F850E74D2F82D7D35C /* /Users/viraltaco/Exercism/cpp/reverse-string/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D0517AB18B59489190B0B111 /* reverse-string */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "reverse-string"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1917C85B7748F0BE5F0A20 /* /Users/viraltaco/Exercism/cpp/reverse-string/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52904E97FF6E4FAC81C9AF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CE0EC5AF3A4E0391056D75 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		1E86124EC4F14FB7B95251CF /* test_reverse-string */ = {
+			isa = PBXGroup;
+			children = (
+				D93AC867BF6A473DA08AFA82 /* CMake Rules */,
+				651EEB5D991B4E4991D77A4F /* /Users/viraltaco/Exercism/cpp/reverse-string/CMakeLists.txt */,
+			);
+			name = "test_reverse-string";
+			sourceTree = "<group>";
+		};
+		4AE9E308D0AF4EF0B3193269 /* reverse-string */ = {
+			isa = PBXGroup;
+			children = (
+				E5F5793301BF4E55A7CD7616 /* Source Files */,
+				4F074177E6B1428384800579 /* Header Files */,
+				63F22BFE5B6A41098CB2F36A /* /Users/viraltaco/Exercism/cpp/reverse-string/CMakeLists.txt */,
+			);
+			name = "reverse-string";
+			sourceTree = "<group>";
+		};
+		4F074177E6B1428384800579 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F258BA24C7B4CE9977FE473 /* /Users/viraltaco/Exercism/cpp/reverse-string/reverse_string.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		5831AC2506BD4D01B4961207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0517AB18B59489190B0B111 /* reverse-string */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DD3C18AAE4540B6B236C5DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A256E9EF0CEF440693C06DAF /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				18CE0EC5AF3A4E0391056D75 /* CMake Rules */,
+				C5BC34F850E74D2F82D7D35C /* /Users/viraltaco/Exercism/cpp/reverse-string/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A2AC4AD2054F46CBA6F70958 = {
+			isa = PBXGroup;
+			children = (
+				1E86124EC4F14FB7B95251CF /* test_reverse-string */,
+				4AE9E308D0AF4EF0B3193269 /* reverse-string */,
+				A256E9EF0CEF440693C06DAF /* ALL_BUILD */,
+				5831AC2506BD4D01B4961207 /* Products */,
+				5DD3C18AAE4540B6B236C5DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D93AC867BF6A473DA08AFA82 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E5F5793301BF4E55A7CD7616 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0E36F6C8B8F4AF296256A81 /* /Users/viraltaco/Exercism/cpp/reverse-string/reverse_string.cpp */,
+				05DCA64E5A38469EB17D7D2B /* /Users/viraltaco/Exercism/cpp/reverse-string/reverse_string_test.cpp */,
+				EC1917C85B7748F0BE5F0A20 /* /Users/viraltaco/Exercism/cpp/reverse-string/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50BC784BF1AB4923B3B80803 /* reverse-string */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283D1F2D948D40C8B42F6261 /* Build configuration list for PBXNativeTarget "reverse-string" */;
+			buildPhases = (
+				53DD8B4EAA41452299E8E470 /* Sources */,
+				52904E97FF6E4FAC81C9AF86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7410CB1B260C4E4FB46403E4 /* PBXTargetDependency */,
+			);
+			name = "reverse-string";
+			productName = "reverse-string";
+			productReference = D0517AB18B59489190B0B111 /* reverse-string */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3368DC3BC1F24F9B98AAA55B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 3CA1B8401558430FB0AFCCC2 /* Build configuration list for PBXProject "reverse-string" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9B80E973F6B945AFA2706FD5 /* Debug */,
+				C07C5D23601843CDB7039D4D /* Release */,
+				871EBEFF8C11440D962DE03F /* MinSizeRel */,
+				1B1E43346C484232B6EFC950 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A2AC4AD2054F46CBA6F70958;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				00297358AED74A90A3338CF8 /* ALL_BUILD */,
+				6E6130BFE08D44929C0F923F /* ZERO_CHECK */,
+				50BC784BF1AB4923B3B80803 /* reverse-string */,
+				26120494378F416EA04F7F6E /* test_reverse-string */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8AD41278E177B4CBA2D37D52 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/viraltaco/Exercism/cpp/reverse-string/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Exercism/cpp/reverse-string/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Exercism/cpp/reverse-string/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Exercism/cpp/reverse-string/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Exercism/cpp/reverse-string/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8BA1619DDD9EE410A5895892 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B414705C7C92D241EF929F24 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/viraltaco/Exercism/cpp/reverse-string/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Exercism/cpp/reverse-string/build
+  make -f /Users/viraltaco/Exercism/cpp/reverse-string/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Exercism/cpp/reverse-string/build
+  make -f /Users/viraltaco/Exercism/cpp/reverse-string/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Exercism/cpp/reverse-string/build
+  make -f /Users/viraltaco/Exercism/cpp/reverse-string/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Exercism/cpp/reverse-string/build
+  make -f /Users/viraltaco/Exercism/cpp/reverse-string/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		B8449DCC746A01F779589DC6 /* Generate CMakeFiles/test_reverse-string */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/viraltaco/Exercism/cpp/reverse-string/build/Debug/reverse-string","/Users/viraltaco/Exercism/cpp/reverse-string/build/MinSizeRel/reverse-string","/Users/viraltaco/Exercism/cpp/reverse-string/build/RelWithDebInfo/reverse-string","/Users/viraltaco/Exercism/cpp/reverse-string/build/Release/reverse-string"			);
+			name = "Generate CMakeFiles/test_reverse-string";
+			outputPaths = (
+"/Users/viraltaco/Exercism/cpp/reverse-string/build/CMakeFiles/test_reverse-string"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/viraltaco/Exercism/cpp/reverse-string/build
+  /Users/viraltaco/Exercism/cpp/reverse-string/build/Debug/reverse-string
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/viraltaco/Exercism/cpp/reverse-string/build
+  /Users/viraltaco/Exercism/cpp/reverse-string/build/Release/reverse-string
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/viraltaco/Exercism/cpp/reverse-string/build
+  /Users/viraltaco/Exercism/cpp/reverse-string/build/MinSizeRel/reverse-string
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/viraltaco/Exercism/cpp/reverse-string/build
+  /Users/viraltaco/Exercism/cpp/reverse-string/build/RelWithDebInfo/reverse-string
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53DD8B4EAA41452299E8E470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA66FE9E87743149C3FDA3B /* /Users/viraltaco/Exercism/cpp/reverse-string/reverse_string.cpp */,
+				EF9160A208ED4ABF8183463D /* /Users/viraltaco/Exercism/cpp/reverse-string/reverse_string_test.cpp */,
+				92AE1B27146F4896B69BB6E4 /* /Users/viraltaco/Exercism/cpp/reverse-string/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24CA368C42BE478BA8B21EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E6130BFE08D44929C0F923F /* ZERO_CHECK */;
+			targetProxy = 8D354D654A8842419F3EFE86 /* PBXContainerItemProxy */;
+		};
+		2AAA84F5F2484A86ABE966E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26120494378F416EA04F7F6E /* test_reverse-string */;
+			targetProxy = 92F3D6FB81384074B01A95AC /* PBXContainerItemProxy */;
+		};
+		7410CB1B260C4E4FB46403E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E6130BFE08D44929C0F923F /* ZERO_CHECK */;
+			targetProxy = C0832DF5F24948B282988774 /* PBXContainerItemProxy */;
+		};
+		74F2C6AE3C8A458182F62911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50BC784BF1AB4923B3B80803 /* reverse-string */;
+			targetProxy = 554B5A3EE7B447C28EA241DA /* PBXContainerItemProxy */;
+		};
+		D3F1EFF2C94F4C85A086F121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E6130BFE08D44929C0F923F /* ZERO_CHECK */;
+			targetProxy = 576998BA172C4903A074F5CA /* PBXContainerItemProxy */;
+		};
+		EF51B4FBBE654272B649128A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50BC784BF1AB4923B3B80803 /* reverse-string */;
+			targetProxy = 3F5EF27459AA4689BB30F576 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02F1E6E2820B4846A99CB443 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build/build";
+			};
+			name = MinSizeRel;
+		};
+		06C949124D874733AD0204C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		09635248DFF24308BD48F6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_reverse-string";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0BAC4D23FBE64D14A8DF0BEE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "reverse-string";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0E6538A71B2543548FE24EDB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "reverse-string";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		10DA00983329439F922EAC75 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		14570CC2BD1944D283215BE4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_reverse-string";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1FD7DFDAB8F4444B8A155BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "reverse-string";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3360ABA156B141049D77BA23 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		41D6836268464458A35BC1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build/build";
+			};
+			name = Release;
+		};
+		4C41443CD9304CB682E222D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A1C5BC624E75403396734BAD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_reverse-string";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AD4BCC875DAB4E5FB5FED1F3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BB56622DBCBB4F66871BAD49 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BB8A2A7878B9489AADEACA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build/build";
+			};
+			name = Debug;
+		};
+		CF45FB7D317B4844A5DBE5A6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		D40963661F894E7FA40E1473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D43C3A08AB8F41E08B062F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = ("-L/usr/local/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "reverse-string";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EBB7F4489CC540B6BAB25872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F529368D743D485AA8F9E93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_reverse-string";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Exercism/cpp/reverse-string/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		283D1F2D948D40C8B42F6261 /* Build configuration list for PBXNativeTarget "reverse-string" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43C3A08AB8F41E08B062F54 /* Debug */,
+				1FD7DFDAB8F4444B8A155BE7 /* Release */,
+				0BAC4D23FBE64D14A8DF0BEE /* MinSizeRel */,
+				0E6538A71B2543548FE24EDB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3CA1B8401558430FB0AFCCC2 /* Build configuration list for PBXProject "reverse-string" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8A2A7878B9489AADEACA75 /* Debug */,
+				41D6836268464458A35BC1FC /* Release */,
+				02F1E6E2820B4846A99CB443 /* MinSizeRel */,
+				CF45FB7D317B4844A5DBE5A6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3F5B3E24A7DC4816845DB0F4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40963661F894E7FA40E1473 /* Debug */,
+				EBB7F4489CC540B6BAB25872 /* Release */,
+				3360ABA156B141049D77BA23 /* MinSizeRel */,
+				AD4BCC875DAB4E5FB5FED1F3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		81383EB69B584214B5FE1085 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C949124D874733AD0204C8 /* Debug */,
+				4C41443CD9304CB682E222D7 /* Release */,
+				BB56622DBCBB4F66871BAD49 /* MinSizeRel */,
+				10DA00983329439F922EAC75 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F4018CDFF8DE4E1D9F227E28 /* Build configuration list for PBXAggregateTarget "test_reverse-string" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09635248DFF24308BD48F6E0 /* Debug */,
+				F529368D743D485AA8F9E93E /* Release */,
+				A1C5BC624E75403396734BAD /* MinSizeRel */,
+				14570CC2BD1944D283215BE4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3368DC3BC1F24F9B98AAA55B /* Project object */;
+}

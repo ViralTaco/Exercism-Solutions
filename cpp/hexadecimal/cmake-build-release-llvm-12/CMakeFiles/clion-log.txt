@@ -1,0 +1,4 @@
+"/Users/viraltaco/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=/usr/local/Cellar/llvm/12.0.1/bin/clang-12 -G "CodeBlocks - Unix Makefiles" /Users/viraltaco/Desktop/Projects/Exercism/cpp/hexadecimal
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/viraltaco/Desktop/Projects/Exercism/cpp/hexadecimal/cmake-build-release-llvm-12

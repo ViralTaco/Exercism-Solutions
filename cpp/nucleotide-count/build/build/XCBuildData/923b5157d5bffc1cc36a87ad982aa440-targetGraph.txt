@@ -1,0 +1,11 @@
+Target dependency graph (4 targets)
+ZERO_CHECK in nucleotide-count
+nucleotide-count in nucleotide-count, depends on:
+ZERO_CHECK in nucleotide-count (explicit)
+test_nucleotide-count in nucleotide-count, depends on:
+ZERO_CHECK in nucleotide-count (explicit)
+nucleotide-count in nucleotide-count (explicit)
+ALL_BUILD in nucleotide-count, depends on:
+ZERO_CHECK in nucleotide-count (explicit)
+test_nucleotide-count in nucleotide-count (explicit)
+nucleotide-count in nucleotide-count (explicit)

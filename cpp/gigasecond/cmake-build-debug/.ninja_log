@@ -1,0 +1,26 @@
+# ninja log v5
+11	1436	1643415053809552317	CMakeFiles/gigasecond.dir/gigasecond.cpp.o	262607727adf300e
+2179	2349	1643413956628537646	gigasecond	3ad80856b2f5b497
+6304	6839	0	CMakeFiles/test_gigasecond	75a8cad5ad2d906a
+1	6129	1643413702045052432	CMakeFiles/gigasecond.dir/test/tests-main.cpp.o	cd4991d5bc3a568f
+11	2189	1643415054560673875	CMakeFiles/gigasecond.dir/gigasecond_test.cpp.o	2b35425587955ebd
+6304	6839	0	/Users/viraltaco/Desktop/Projects/Exercism/cpp/gigasecond/cmake-build-debug/CMakeFiles/test_gigasecond	75a8cad5ad2d906a
+10	1509	1643415112825172150	CMakeFiles/gigasecond.dir/gigasecond.cpp.o	262607727adf300e
+10	2291	1643415113603690643	CMakeFiles/gigasecond.dir/gigasecond_test.cpp.o	2b35425587955ebd
+10	6359	1643415117655628771	CMakeFiles/gigasecond.dir/test/tests-main.cpp.o	cd4991d5bc3a568f
+8	1376	1643415455030329906	CMakeFiles/gigasecond.dir/gigasecond.cpp.o	262607727adf300e
+9	1384	1643415496189793043	CMakeFiles/gigasecond.dir/gigasecond.cpp.o	262607727adf300e
+11	1431	1643415981237732717	CMakeFiles/gigasecond.dir/gigasecond.cpp.o	262607727adf300e
+11	2114	1643415981918869854	CMakeFiles/gigasecond.dir/gigasecond_test.cpp.o	2b35425587955ebd
+2114	2314	1643415982117065017	gigasecond	3ad80856b2f5b497
+2314	2689	0	CMakeFiles/test_gigasecond	75a8cad5ad2d906a
+2314	2689	0	/Users/viraltaco/Desktop/Projects/Exercism/cpp/gigasecond/cmake-build-debug/CMakeFiles/test_gigasecond	75a8cad5ad2d906a
+10	1429	1643416281230640276	CMakeFiles/gigasecond.dir/gigasecond.cpp.o	262607727adf300e
+1429	1607	1643416281408207592	gigasecond	3ad80856b2f5b497
+1607	1995	0	CMakeFiles/test_gigasecond	75a8cad5ad2d906a
+1607	1995	0	/Users/viraltaco/Desktop/Projects/Exercism/cpp/gigasecond/cmake-build-debug/CMakeFiles/test_gigasecond	75a8cad5ad2d906a
+11	1631	1643416379405744591	CMakeFiles/gigasecond.dir/gigasecond.cpp.o	262607727adf300e
+11	2342	1643416380115107194	CMakeFiles/gigasecond.dir/gigasecond_test.cpp.o	2b35425587955ebd
+2342	2534	1643416380308129595	gigasecond	3ad80856b2f5b497
+2534	2885	0	CMakeFiles/test_gigasecond	75a8cad5ad2d906a
+2534	2885	0	/Users/viraltaco/Desktop/Projects/Exercism/cpp/gigasecond/cmake-build-debug/CMakeFiles/test_gigasecond	75a8cad5ad2d906a

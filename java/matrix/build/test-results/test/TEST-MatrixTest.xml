@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MatrixTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-05-25T15:57:34" hostname="MacBook-Pro.local" time="0.027">
+  <properties/>
+  <testcase name="throwsWhenOutOfBoundsRow" classname="MatrixTest" time="0.02"/>
+  <testcase name="extractRowFromOneNumberMatrixTest" classname="MatrixTest" time="0.001"/>
+  <testcase name="throwsWhenOutOfBoundsColumn" classname="MatrixTest" time="0.001"/>
+  <testcase name="extractRowFromDiffWidthsMatrixTest" classname="MatrixTest" time="0.001"/>
+  <testcase name="extractColumnFromNonSquareMatrixTest" classname="MatrixTest" time="0.001"/>
+  <testcase name="extractColumnFromDiffWidthsMatrixTest" classname="MatrixTest" time="0.001"/>
+  <testcase name="extractColumnMatrixTest" classname="MatrixTest" time="0.001"/>
+  <testcase name="extractRowFromMatrixTest" classname="MatrixTest" time="0.0"/>
+  <testcase name="extractColumnFromOneNumberMatrixTest" classname="MatrixTest" time="0.0"/>
+  <testcase name="extractRowFromNonSquareMatrixTest" classname="MatrixTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

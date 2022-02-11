@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/viraltaco/Desktop/projects/Exercism/cpp/nucleotide-count/nucleotide_count.cpp
+nucleotide_count.h
+/Users/viraltaco/Desktop/projects/Exercism/cpp/nucleotide-count/nucleotide_count.h
+stdexcept
+-
+
+/Users/viraltaco/Desktop/projects/Exercism/cpp/nucleotide-count/nucleotide_count.h
+string_view
+-
+algorithm
+-
+array
+-
+map
+-
+

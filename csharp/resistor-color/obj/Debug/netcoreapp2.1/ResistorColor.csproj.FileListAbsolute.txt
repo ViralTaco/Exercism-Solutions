@@ -1,0 +1,15 @@
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/ResistorColor.deps.json
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/ResistorColor.runtimeconfig.json
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/ResistorColor.runtimeconfig.dev.json
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/ResistorColor.dll
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/ResistorColor.pdb
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/obj/Debug/netcoreapp2.1/ResistorColor.csprojAssemblyReference.cache
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/obj/Debug/netcoreapp2.1/ResistorColor.AssemblyInfoInputs.cache
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/obj/Debug/netcoreapp2.1/ResistorColor.AssemblyInfo.cs
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/obj/Debug/netcoreapp2.1/ResistorColor.csproj.CoreCompileInputs.cache
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/obj/Debug/netcoreapp2.1/ResistorColor.dll
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/obj/Debug/netcoreapp2.1/ResistorColor.pdb
+/Users/viraltaco/Desktop/projects/Exercism/csharp/resistor-color/obj/Debug/netcoreapp2.1/ResistorColor.genruntimeconfig.cache

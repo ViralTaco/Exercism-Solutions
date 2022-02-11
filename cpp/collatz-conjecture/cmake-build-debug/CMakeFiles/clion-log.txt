@@ -1,0 +1,16 @@
+"/Users/viraltaco/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/local/Cellar/make/4.3/bin/gmake -DCMAKE_C_COMPILER=/usr/local/Cellar/llvm/12.0.0_1/bin/clang-12 -G "CodeBlocks - Unix Makefiles" /Users/viraltaco/Desktop/Projects/Exercism/cpp/collatz-conjecture
+-- The CXX compiler identification is AppleClang 12.0.5.12050022
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+
+
+-- Build files have been written to: /Users/viraltaco/Desktop/Projects/Exercism/cpp/collatz-conjecture/cmake-build-debug

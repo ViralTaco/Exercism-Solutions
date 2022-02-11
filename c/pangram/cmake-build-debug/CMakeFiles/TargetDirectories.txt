@@ -1,0 +1,3 @@
+/Users/viraltaco/Desktop/Projects/Exercism/c/pangram/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/c/pangram/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/c/pangram/cmake-build-debug/CMakeFiles/pangram.dir

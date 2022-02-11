@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/sieve/cmake-build-debug-llvm-12/CMakeFiles/rebuild_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/sieve/cmake-build-debug-llvm-12/CMakeFiles/edit_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/sieve/cmake-build-debug-llvm-12/CMakeFiles/test_sieve.dir
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/sieve/cmake-build-debug-llvm-12/CMakeFiles/sieve.dir

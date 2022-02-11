@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/viraltaco/Desktop/Projects/Exercism/c/pangram/src/pangram.c
+pangram.h
+/Users/viraltaco/Desktop/Projects/Exercism/c/pangram/src/pangram.h
+
+/Users/viraltaco/Desktop/Projects/Exercism/c/pangram/src/pangram.h
+stdbool.h
+-
+

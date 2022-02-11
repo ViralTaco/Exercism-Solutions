@@ -1,0 +1,1 @@
+/usr/local/Cellar/llvm/12.0.0/bin/clang-12 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib CMakeFiles/acronym.dir/acronym_test.cpp.o CMakeFiles/acronym.dir/acronym.cpp.o CMakeFiles/acronym.dir/test/tests-main.cpp.o -o acronym 

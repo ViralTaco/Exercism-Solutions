@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/hexadecimal/hexadecimal.hpp
+tuple
+-
+string_view
+-
+
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/hexadecimal/hexadecimal_test.cpp
+hexadecimal.hpp
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/hexadecimal/hexadecimal.hpp
+string_view
+-
+cstdio
+-
+array
+-
+cassert
+-
+

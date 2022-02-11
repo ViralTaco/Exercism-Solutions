@@ -1,0 +1,60 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "86623a046f4072d261bcbc80b35d9eb35f78668fd3036008982dc819337bf15d"
+    },
+    {
+      "guid" : "86623a046f4072d261bcbc80b35d9eb34be82e7c8333720a8eb3bb6b23bd2b76"
+    },
+    {
+      "guid" : "86623a046f4072d261bcbc80b35d9eb3941fbbfba91238c8ff4867be018ab5d2"
+    },
+    {
+      "guid" : "86623a046f4072d261bcbc80b35d9eb312bb74570daf429cb3cde109a663f80a"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/viraltaco/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/viraltaco/Library/Developer/Xcode/DerivedData/nucleotide-count-dxmhbreevcsxtycvuveugbmenudn/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/viraltaco/Library/Developer/Xcode/DerivedData/nucleotide-count-dxmhbreevcsxtycvuveugbmenudn/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

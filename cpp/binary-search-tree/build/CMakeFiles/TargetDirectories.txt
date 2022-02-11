@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/projects/Exercism/cpp/binary-search-tree/build/CMakeFiles/test_binary-search-tree.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/binary-search-tree/build/CMakeFiles/binary-search-tree.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/binary-search-tree/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/Desktop/projects/Exercism/cpp/binary-search-tree/build/CMakeFiles/ZERO_CHECK.dir

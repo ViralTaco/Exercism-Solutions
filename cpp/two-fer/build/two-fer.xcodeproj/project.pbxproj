@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		43AA8FF2A56144C6A98097FB /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EDDC553804A949D8BD2E9EAB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				56D551C7F990419E91C79F05 /* CMake Rules */,
+			);
+			dependencies = (
+				4CC802D6A67140D5AE36F6BB /* PBXTargetDependency */,
+				01A416D978CC4E718086EE29 /* PBXTargetDependency */,
+				F29DFFBA5C1B4749A06E9046 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		DF52CC0B8C5C4C769038C7A1 /* test_two-fer */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5F63E619F44744388E2BA4C2 /* Build configuration list for PBXAggregateTarget "test_two-fer" */;
+			buildPhases = (
+				A06E207160CB455F9463BE67 /* CMake Rules */,
+			);
+			dependencies = (
+				3037BE418E904FC293537B34 /* PBXTargetDependency */,
+				DEA2F32B3DEE4E5AAD0CDF5B /* PBXTargetDependency */,
+			);
+			name = "test_two-fer";
+			productName = "test_two-fer";
+		};
+		F2D4CCFF21D145968FB5193A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3A44F227D2A64ED28C7D24BC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B3F72230DFCF44D19A488D84 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		22D1AB72E21845F3BE4F2AFE /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C27EFCDC9BF347FE868EDE4C /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/CMakeLists.txt */; };
+		3FEADF2C62B74E67AB8F867D /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = 75A3D12952EA4F9DAD32BC6D /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/test/tests-main.cpp */; };
+		B70507AD38604E178579F939 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/two_fer.h */ = {isa = PBXBuildFile; fileRef = BF5CBE34DF6D472D858D714E /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/two_fer.h */; };
+		DF9BEF80833A4875BBD2C09A /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/two_fer_test.cpp */ = {isa = PBXBuildFile; fileRef = 6C91D00E0FAD4C13B61F5948 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/two_fer_test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		16E2DCB4DAB44C0299FAB80D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		B7ADE704E9C4469393E722FE /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		B9BD58F4F45C478B92E664B5 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F86B1FAEB2AC4595A597F2B4 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		86BF6364C0044657BF89CBBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E60075D5884A1DBE1BA2AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF52CC0B8C5C4C769038C7A1;
+			remoteInfo = "test_two-fer";
+		};
+		97659DF96A984BCC98D2C3B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E60075D5884A1DBE1BA2AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2D4CCFF21D145968FB5193A;
+			remoteInfo = ZERO_CHECK;
+		};
+		C3580C5D3BB54DFA941E92D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E60075D5884A1DBE1BA2AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56B42ED0208E49B5B779CFC4;
+			remoteInfo = "two-fer";
+		};
+		CD36E6B66A014E4C9D2FD714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E60075D5884A1DBE1BA2AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2D4CCFF21D145968FB5193A;
+			remoteInfo = ZERO_CHECK;
+		};
+		E5ACB835CD6248D693ED40AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E60075D5884A1DBE1BA2AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56B42ED0208E49B5B779CFC4;
+			remoteInfo = "two-fer";
+		};
+		F49C14581E0A412F8AC5E90F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E60075D5884A1DBE1BA2AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2D4CCFF21D145968FB5193A;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D57732B26BF43A2A5F238A5 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6C91D00E0FAD4C13B61F5948 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/two_fer_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = two_fer_test.cpp; path = two_fer_test.cpp; sourceTree = SOURCE_ROOT; };
+		75A3D12952EA4F9DAD32BC6D /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+		A71AF6A18A43412592AAD793 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BF5CBE34DF6D472D858D714E /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/two_fer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = two_fer.h; path = two_fer.h; sourceTree = SOURCE_ROOT; };
+		C27EFCDC9BF347FE868EDE4C /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F538EAA2CD544EACA32B55D1 /* two-fer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "two-fer"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1C368D928081440BA524EA2A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		24FF45B86C0147FAAF7DFCCF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				75A3D12952EA4F9DAD32BC6D /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/test/tests-main.cpp */,
+				6C91D00E0FAD4C13B61F5948 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/two_fer_test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		265C79A486C44833B84F46B0 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5CBE34DF6D472D858D714E /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/two_fer.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		28194D847D8C476D9EC589CD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7E74BFDB72974DE2A09B5030 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1C368D928081440BA524EA2A /* CMake Rules */,
+				3D57732B26BF43A2A5F238A5 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A2DF5243650B4BD2A259CE54 = {
+			isa = PBXGroup;
+			children = (
+				A9BF590C61D843E6ADA3BA39 /* test_two-fer */,
+				AD3A38631889467EB9844095 /* two-fer */,
+				7E74BFDB72974DE2A09B5030 /* ALL_BUILD */,
+				F19072B290194A5EB8BBFAB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9BF590C61D843E6ADA3BA39 /* test_two-fer */ = {
+			isa = PBXGroup;
+			children = (
+				28194D847D8C476D9EC589CD /* CMake Rules */,
+				A71AF6A18A43412592AAD793 /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/CMakeLists.txt */,
+			);
+			name = "test_two-fer";
+			sourceTree = "<group>";
+		};
+		AD3A38631889467EB9844095 /* two-fer */ = {
+			isa = PBXGroup;
+			children = (
+				24FF45B86C0147FAAF7DFCCF /* Source Files */,
+				265C79A486C44833B84F46B0 /* Header Files */,
+				C27EFCDC9BF347FE868EDE4C /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/CMakeLists.txt */,
+			);
+			name = "two-fer";
+			sourceTree = "<group>";
+		};
+		F19072B290194A5EB8BBFAB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F538EAA2CD544EACA32B55D1 /* two-fer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56B42ED0208E49B5B779CFC4 /* two-fer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82D4BB6B53C4CAB8766E121 /* Build configuration list for PBXNativeTarget "two-fer" */;
+			buildPhases = (
+				A9F10B0D8EF04808BE8F7864 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				059B8BEFEAC946A0BC0F7D46 /* PBXTargetDependency */,
+			);
+			name = "two-fer";
+			productName = "two-fer";
+			productReference = F538EAA2CD544EACA32B55D1 /* two-fer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62E60075D5884A1DBE1BA2AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = 2BB796C4F7514692BCDDCFEC /* Build configuration list for PBXProject "two-fer" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F86B1FAEB2AC4595A597F2B4 /* Debug */,
+				16E2DCB4DAB44C0299FAB80D /* Release */,
+				B7ADE704E9C4469393E722FE /* MinSizeRel */,
+				B9BD58F4F45C478B92E664B5 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A2DF5243650B4BD2A259CE54;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				43AA8FF2A56144C6A98097FB /* ALL_BUILD */,
+				F2D4CCFF21D145968FB5193A /* ZERO_CHECK */,
+				DF52CC0B8C5C4C769038C7A1 /* test_two-fer */,
+				56B42ED0208E49B5B779CFC4 /* two-fer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3547BA59D65148B1854ACCF9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		56D551C7F990419E91C79F05 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build -f /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A06E207160CB455F9463BE67 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build -f /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build/CMakeScripts/test_two-fer_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B3F72230DFCF44D19A488D84 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build -f /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		F62CCC88949B4B67BF61E823 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F8E3610A09B44B5AB95D197A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9F10B0D8EF04808BE8F7864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEADF2C62B74E67AB8F867D /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/test/tests-main.cpp */,
+				DF9BEF80833A4875BBD2C09A /* /Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/two_fer_test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01A416D978CC4E718086EE29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF52CC0B8C5C4C769038C7A1 /* test_two-fer */;
+			targetProxy = 86BF6364C0044657BF89CBBC /* PBXContainerItemProxy */;
+		};
+		059B8BEFEAC946A0BC0F7D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2D4CCFF21D145968FB5193A /* ZERO_CHECK */;
+			targetProxy = F49C14581E0A412F8AC5E90F /* PBXContainerItemProxy */;
+		};
+		3037BE418E904FC293537B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2D4CCFF21D145968FB5193A /* ZERO_CHECK */;
+			targetProxy = CD36E6B66A014E4C9D2FD714 /* PBXContainerItemProxy */;
+		};
+		4CC802D6A67140D5AE36F6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2D4CCFF21D145968FB5193A /* ZERO_CHECK */;
+			targetProxy = 97659DF96A984BCC98D2C3B5 /* PBXContainerItemProxy */;
+		};
+		DEA2F32B3DEE4E5AAD0CDF5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56B42ED0208E49B5B779CFC4 /* two-fer */;
+			targetProxy = C3580C5D3BB54DFA941E92D9 /* PBXContainerItemProxy */;
+		};
+		F29DFFBA5C1B4749A06E9046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56B42ED0208E49B5B779CFC4 /* two-fer */;
+			targetProxy = E5ACB835CD6248D693ED40AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00C2012FB8E04C8BB748DDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build/build";
+			};
+			name = Release;
+		};
+		0726219FC3FC4B32AD3DC42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		14F608188B7241D8B6D1BD8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3F772B5AD2B34F3ABB479A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_two-fer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		41890AF61E7D45D1A90B13D6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		431C39881B8D4F49BB3BA052 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		5796D69EED5B4F04A472834B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build/build";
+			};
+			name = MinSizeRel;
+		};
+		6AF6AB8F1E7246449D45356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_two-fer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		89E83D54BBA5472BAC153608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "two-fer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		90B4AC3B6DED4320A86FC79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9EB54FA70B9C49388F7CCC71 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "two-fer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A33C31003A7A431F9EDF4778 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "two-fer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A37F3B78F9CA43779E94A240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build/build";
+			};
+			name = Debug;
+		};
+		A5CEF369A7F24DBCB88BA4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AE63E4540580444981CE696B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_two-fer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B623C16B23104DECA6716D65 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_two-fer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CF2EEF0734E046998B0972C6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EBE95E80F3F34ABCA491318A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F43EF64277064D3EBB698437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "two-fer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FF4BC307CD0D447A9792DA67 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/Desktop/projects/Exercism/cpp/two-fer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB796C4F7514692BCDDCFEC /* Build configuration list for PBXProject "two-fer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37F3B78F9CA43779E94A240 /* Debug */,
+				00C2012FB8E04C8BB748DDDD /* Release */,
+				5796D69EED5B4F04A472834B /* MinSizeRel */,
+				431C39881B8D4F49BB3BA052 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3A44F227D2A64ED28C7D24BC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F608188B7241D8B6D1BD8C /* Debug */,
+				0726219FC3FC4B32AD3DC42B /* Release */,
+				CF2EEF0734E046998B0972C6 /* MinSizeRel */,
+				41890AF61E7D45D1A90B13D6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5F63E619F44744388E2BA4C2 /* Build configuration list for PBXAggregateTarget "test_two-fer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF6AB8F1E7246449D45356B /* Debug */,
+				3F772B5AD2B34F3ABB479A0B /* Release */,
+				AE63E4540580444981CE696B /* MinSizeRel */,
+				B623C16B23104DECA6716D65 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A82D4BB6B53C4CAB8766E121 /* Build configuration list for PBXNativeTarget "two-fer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E83D54BBA5472BAC153608 /* Debug */,
+				F43EF64277064D3EBB698437 /* Release */,
+				A33C31003A7A431F9EDF4778 /* MinSizeRel */,
+				9EB54FA70B9C49388F7CCC71 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EDDC553804A949D8BD2E9EAB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B4AC3B6DED4320A86FC79D /* Debug */,
+				A5CEF369A7F24DBCB88BA4CA /* Release */,
+				FF4BC307CD0D447A9792DA67 /* MinSizeRel */,
+				EBE95E80F3F34ABCA491318A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62E60075D5884A1DBE1BA2AD /* Project object */;
+}

@@ -1,0 +1,131 @@
+Index: space_age.hpp
+===================================================================
+diff --git a/space_age.hpp b/space_age.h
+rename from space_age.hpp
+rename to space_age.h
+--- a/space_age.hpp	(date 1624771473098)
++++ b/space_age.h	(date 0)
+@@ -1,49 +1,80 @@
+-#ifndef VT_SPACE_AGE_HPP
+-#define VT_SPACE_AGE_HPP
+-/// copyright 2019-2021 viraltaco_ <https://opensource.org/licenses/MIT>
+-
+-#include "space_age.tpp"  // space_age::{ duration, ratio, func }
+-#include <utility>
++#ifndef VT_SPACE_AGE_H
++// ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
++// ┃ space_age.h:                                         ┃
++// ┃ Copyright (c) 2020 viraltaco_ (viraltaco@gmx.com)    ┃
++// ┃ https://github.com/ViralTaco                         ┃
++// ┃ SPDX-License-Identifier: MIT                         ┃
++// ┃ <http://www.opensource.org/licenses/MIT>             ┃
++// ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
++#define VT_SPACE_AGE_H "2.1.0"
+ 
+ namespace space_age {
+- inline namespace detail {
+-  using i64 = signed long long;
+-  using u64 = unsigned long long;
+- } // inline namespace detail
+- 
+- inline namespace time {
+-  using std::chrono_literals::operator ""s;
+-  using seconds = duration<i64>;
++class space_age {
++public: // MARK: alias
++  using Years = double;
++  using Seconds = unsigned long long;
++  
++private: // MARK: member constants
++  static constexpr Seconds earth_year_ = 31557600;
++
++  struct Ratio {
++    static constexpr auto mercury = 0.2408467;
++    static constexpr auto jupiter = 11.862615;
++    static constexpr auto neptune = 164.79132;
++    static constexpr auto venus = 0.61519726;
++    static constexpr auto saturn = 29.447498;
++    static constexpr auto uranus = 84.016846;
++    static constexpr auto mars = 1.8808158;
++  };
+   
+-  struct julian_year: decltype(31'557'600s) {
+-    
+-    constexpr auto operator *(i64 rhs) const {
+-      using namespace std::chrono;
+-      return this * duration_cast<seconds>(rhs);
+-    }
+-  };
++protected: // MARK: members
++  Seconds age_;
++  Years age_years_;
++
++public: // MARK: init
++  explicit constexpr space_age(const Seconds age) noexcept
++    : age_{ age }
++    , age_years_{ static_cast<Years> (age) / earth_year_ }
++  {}
++
++public: // MARK: instance methods
++  constexpr auto seconds() const noexcept -> Seconds {
++    return age_;
++  }
++  
++  constexpr auto on_earth() const noexcept -> Years {
++    return age_years_;
++  }
++  
++  constexpr auto on_mercury() const noexcept -> Years {
++    return age_years_ / Ratio::mercury;
++  }
++  
++  constexpr auto on_jupiter() const noexcept -> Years {
++    return age_years_ / Ratio::jupiter;
++  }
+   
++  constexpr auto on_neptune() const noexcept -> Years {
++    return age_years_ / Ratio::neptune;
++  }
+   
+-  inline namespace literals {
+-   [[nodiscard]] constexpr auto
+-   operator ""_a(const u64 seconds) { return julian_year(seconds); }
+-
+-   [[nodiscard]] constexpr auto
+-   operator ""_a(const long double seconds) { return julian_year(seconds); }
+-  } // namespace literals
+- } // namespace time
+- 
+- class [[nodiscard]] space_age {
+- private:
+-   [[nodiscard]] auto sex(julian_year y) const -> getter<i64>;
+-
+- public:
+-   constexpr explicit space_age(const u64 age)
+-     : seconds{ sex(julian_year(age)) }
+-   {}
+-   
+-   const getter<i64> seconds;
+- };  // class space_age
+-}  // namespace space_age
++  constexpr auto on_venus() const noexcept -> Years {
++    return age_years_ / Ratio::venus;
++  }
++  
++  constexpr auto on_saturn() const noexcept -> Years {
++    return age_years_ / Ratio::saturn;
++  }
++  
++  constexpr auto on_uranus() const noexcept -> Years {
++    return age_years_ / Ratio::uranus;
++  }
++  
++  constexpr auto on_mars() const noexcept -> Years {
++    return age_years_ / Ratio::mars;
++  }
++  
++};  // class space_age
++} // namespace space_age
+ 
+-#endif // VT_SPACE_AGE_HPP
++#endif

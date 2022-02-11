@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/sum-of-multiples/sum_of_multiples.cpp
+sum_of_multiples.h
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/sum-of-multiples/sum_of_multiples.h
+set
+-
+algorithm
+-
+numeric
+-
+functional
+-
+limits
+-
+utility
+-
+
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/sum-of-multiples/sum_of_multiples.h
+set
+-
+

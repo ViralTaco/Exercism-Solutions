@@ -1,0 +1,3 @@
+/Users/viraltaco/Desktop/Projects/Exercism/c/difference-of-squares/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/c/difference-of-squares/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/c/difference-of-squares/cmake-build-debug/CMakeFiles/difference_of_squares.dir

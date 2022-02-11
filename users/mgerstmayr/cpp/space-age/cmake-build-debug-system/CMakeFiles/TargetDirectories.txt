@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/Projects/Exercism/users/mgerstmayr/cpp/space-age/cmake-build-debug-system/CMakeFiles/rebuild_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/users/mgerstmayr/cpp/space-age/cmake-build-debug-system/CMakeFiles/edit_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/users/mgerstmayr/cpp/space-age/cmake-build-debug-system/CMakeFiles/test_space-age.dir
+/Users/viraltaco/Desktop/Projects/Exercism/users/mgerstmayr/cpp/space-age/cmake-build-debug-system/CMakeFiles/space-age.dir

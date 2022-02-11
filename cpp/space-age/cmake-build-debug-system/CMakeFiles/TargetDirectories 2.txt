@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/space-age/cmake-build-debug-system/CMakeFiles/rebuild_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/space-age/cmake-build-debug-system/CMakeFiles/edit_cache.dir
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/space-age/cmake-build-debug-system/CMakeFiles/test_spage_age.dir
+/Users/viraltaco/Desktop/Projects/Exercism/cpp/space-age/cmake-build-debug-system/CMakeFiles/spage_age.dir
